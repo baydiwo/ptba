@@ -118,6 +118,17 @@ header {
     * --------------------------------------- */
     .slide{
         background-size: cover;
+        position: relative;
+
+        &::after {
+            content: " ";
+            background: url(../img/overlay2.png) repeat;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100% ;
+            height: 100%;
+        }
 
         .caption {
             width: 100%;
