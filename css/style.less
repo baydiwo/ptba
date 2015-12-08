@@ -13,15 +13,41 @@
 
 body {
     font-family: @arimo;
+    font-size: 14px;
+    background-color: @white;
+    position: relative;
+
+    .container-fluid {
+        max-width: 1360px;
+        width: 100%;
+        margin: 0 auto !important;
+        overflow: hidden;
+    }
 }
 
 .no-padding {padding: 0;}
 a {
+    color: @orange;
     .transition(all ease-in .3s);
 
     &:hover {
-        color: @orange;
+        color: @darkBrown;
     }
+}
+
+h1 {font-size: 40px;}
+h2 {
+    font-size: 36px;
+    font-family: @poly;
+    color: @darkBrown;
+}
+h3 {font-size: 24px;}
+h4 {font-size:20px;}
+h5 {font-size: 18px;}
+p {font-size: 14px;}
+
+.mobile {
+    display: none !important;
 }
 
 header {
@@ -37,13 +63,13 @@ header {
             width: 100%;
             text-align: center;
             position: relative;
-            bottom: 30px;
+            bottom: 20px;
             margin: 0;
 
             .title {
                 background: rgba(0,0,0,0.2);
 
-                h2 {
+                h1 {
                     font-size: 40px;
                     padding: 20px;
                     margin:0;
@@ -56,7 +82,7 @@ header {
                 padding: 20px;
             }
 
-            h2, .description {
+            h1, .description {
                 color: white;
                 text-transform: uppercase;
                 text-shadow:2px 2px 6px #000;
@@ -71,16 +97,57 @@ header {
 
     //navigation
     .logo-nav {
-        background: @white;
-        padding:20px 20px 0 20px;
+        background: rgba(246,246,246,.7);
+        padding:10px 0;
         position: absolute;
         left: 0;
         top: 0;
-        width: 100vw;
+        width: 100%;
         .transition(all ease .3s);
 
+        .container {
+            max-width: 960px;
+        }
+
+        .list-header {
+            height: 30px;
+
+            li {
+                display: table-cell;
+                vertical-align: middle;
+                padding: 0;
+
+                &:nth-child(1) {
+                    a {
+                        border-right: 1px solid @black;
+                    }
+                }
+
+                a {
+                    padding: 0 10px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: @black;
+                }
+            }
+        }
         form , .lang {
             display: block;
+        }
+
+        form {
+            .search {
+
+                input {
+                    border-right:none;
+                    .placeholder(@white);
+                }
+                input, .input-group-addon {
+                    background: @brown;
+                    color: @white;
+                }
+            }
         }
 
         &.sticky {
@@ -88,11 +155,12 @@ header {
             z-index: 9;
             padding: 10px 20px;
             .box-shadow(0 1px 20px #222);
+            background: rgba(246,246,246,1);
 
-            form , .lang {
-                opacity: 0;
-                display: none;
-            }
+            // form , .lang {
+            //     opacity: 0;
+            //     display: none;
+            // }
         }
 
         .lang {
@@ -110,12 +178,13 @@ header {
             }
         }
 
-        img {float: right;}
         nav {
-            margin: 10px 0 10px 0;
+            margin: 0;
             background: none;
             border:none;
             min-height: 30px;
+
+            .navbar-collapse {padding: 0;}
 
             ul {
                 li {
@@ -136,7 +205,15 @@ header {
 
                     &.active {
                         a {
-                            background: @brown !important;
+                            background-color: @brown;
+                            color: @white;
+                        }
+                    }
+
+                    &:hover, &:focus {
+
+                        > a {
+                            background-color: @brown !important;
                             color: @white !important;
                         }
                     }
@@ -312,9 +389,8 @@ article {
         img {
            .transition(all 0.2s linear);
 
-           &.img-icon {
-            height: 80px;
-           }
+           &.img-icon {height: 80px;}
+           &.divider {width: 80%;}
         }
 
         h2 {

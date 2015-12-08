@@ -30,3 +30,7 @@ $(function () {
 });
 
 new WOW().init();
+
+function init() {
+    alert("The width of the document is " + document.width + " pixels.");
+}

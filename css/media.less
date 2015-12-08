@@ -1,0 +1,205 @@
+@import "build/lesshat.less";
+@screen-xs-max : 568px;
+@screen-sm-min : 568px;
+@screen-sm-max : 1024px;
+@screen-md-min : 1024px;
+@screen-md-max : 1200px;
+@screen-lg-min : 1200px;
+
+@imp : !important;
+// custom variables
+@blue : #040088;
+@orange :#e59c28;
+@brown: #972928;
+@darkBrown:#600;
+@black : #222;
+@arimo : 'Arimo', sans-serif;
+@poly : 'Poly', serif;
+@white: #efefef;
+
+@media (max-width: @screen-xs-max) {
+
+    body , p {
+        font-size: 11px;
+    }
+
+    h1 {font-size: 30px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 20px;}
+    h4 {font-size: 18px;}
+    h5 {font-size: 14px @imp;}
+    p {font-size: 11px @imp;}
+
+    .mobile {display: block @imp;}
+    .desktop {display: none @imp;}
+    .mobile-padding {padding: 0 15px @imp;}
+    .no-padding-mobile {padding: 0 @imp;}
+
+    header {
+
+        .logo {
+            text-align: center;
+            width: 100%;
+            .transition(all ease .3s);
+
+            img {
+                text-align: center;
+                float: none;
+                display: inline;
+            }
+
+            .lang {
+                position: absolute;
+                right: 4%;
+                top: 10px;
+            }
+        }
+
+        .logo-nav {
+            .box-shadow(0 1px 20px #222);
+
+            .list-header {
+                padding: 0;
+                margin-top: 10px;
+
+                li {
+                    display: inline-block;
+                    padding: 5px;
+
+                    a {
+                        padding: 0;
+                        font-size: 11px;
+                    }
+
+                    &:nth-child(1), &:nth-child(2) {
+                        width: auto;
+
+                        a {
+                            border:none;
+                        }
+                    }
+                    &:nth-child(3){
+                        width: 100%;
+                        max-width:140px;
+                    }
+
+                    form , .form-group {margin: 0px;}
+                }
+            }
+
+            .lang {
+                margin-top: 0px;
+                text-align: center;
+                margin-left: 0;
+            }
+
+            nav {
+                margin: 0;
+                padding-top: 0px;
+                width: 100%;
+                min-height: 1px;
+
+                .navbar-toggle {
+                    margin:14px 0 0 0px;
+                    padding: 7px;
+                    border-color: @darkBrown;
+                }
+
+                .navbar-collapse {padding: 15px;}
+            }
+
+            &.sticky {
+                padding-bottom: 0;
+
+                .logo {
+                    opacity: 0;
+                    display: none;
+                }
+
+                .navbar-toggle {
+                    margin-top:5px;
+                }
+
+                form , .lang {
+                    opacity: 1;
+                    display: block;
+                }
+
+                .list-header{margin-top: 0;
+
+                    li:nth-child(3){
+                        max-width:115px;
+                    }
+                }
+            }
+        }
+
+        .accordion {
+            position: relative;
+            top: 0px;
+            right: 0;
+            padding: 20px;
+            max-width: 100%;
+            width: 100%;
+            background: @white;
+
+            .stocks {
+                width: 100%;
+                height: auto;
+            }
+
+            .widget {
+                background-color:rgba(151,41,40,1)
+            }
+
+        }
+    }
+
+    footer {
+        padding-top: 20px;
+
+
+
+        &::before {
+            height: 130px;
+        }
+
+        .list-footer-bottom {
+            text-align: center;
+        }
+
+        .list-icon {
+            text-align: center;
+            li  a {padding: 0 5px;}
+        }
+    }
+
+    article {
+        .view-first {
+
+                h2 {font-size: 18px;}
+            }
+
+            img {
+
+                &.img-icon {
+                    height: 70px @imp;
+                }
+            }
+        }
+}
+
+@media only screen and (max-width: 767px){
+
+}//tablet
+
+
+//ipad and tablet
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+
+
+
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+
+}

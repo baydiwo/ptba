@@ -13,6 +13,7 @@
     <link href="css/jquery.fullPage.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css" media="all">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,138 +33,120 @@
 
     <header>
         <!-- slider -->
-        <div id="fullpage" class="">
-            <div class="section " id="section0">
-                <div class="slide" id="slide1">
-                    <div class="caption">
-                        <div class="title">
-                            <h2>Work Smart. Work Hard.</h2>
-                        </div>
-                        <div class="description">
-                            A WORLD-CLASS ENVIRONMENT-CARE ENERGY COMPANY.
-                        </div>
-                    </div>
-                </div>
-                <div class="slide" id="slide1">
-                    <div class="caption">
-                        <div class="title">
-                            <h2>Work Smart. Work Hard.</h2>
-                        </div>
-                        <div class="description">
-                            A WORLD-CLASS ENVIRONMENT-CARE ENERGY COMPANY.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slide" id="slide1">
-                    <div class="caption">
-                        <div class="title">
-                            <h2>Work Smart. Work Hard.</h2>
-                        </div>
-                        <div class="description">
-                            A WORLD-CLASS ENVIRONMENT-CARE ENERGY COMPANY.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include "inc/home-slider.php" ?>
         <!-- end of slider -->
-        <div class="container-fluid">
-            <div class="row logo-nav">
-                <div class="col-lg-2">
-                    <div class="logo wow fadeIn">
-                        <a href="#" title="PT Bukit Asam"><img src="img/logo.png" alt="PT Bukit Asam"></a>
-                    </div>
-                </div>
-                <div class="col-lg-10">
-                    <div class="row">
-                        <div class="col-lg-3 pull-right">
-                            <a href="" class=" pull-right"><img src="img/id.png" height="22" width="32" alt="" class="pull-right img-responsive lang"></a>
-                            <form class="form-inline pull-right">
-                                <div class="form-group">
-                                    <div class="input-group">
-                                        <input type="search" class="form-control input-sm" id="search" placeholder="Search...">
-                                        <div class="input-group-addon"><button type="submit" class=""><span class="glyphicon glyphicon-search"></span></button></div>
-                                    </div>
-                                </div>
-                            </form>
+        <div class="logo-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-xs-12">
+                        <div class="logo wow fadeIn">
+                            <a href="#" title="PT Bukit Asam"><img src="img/logo.png" alt="PT Bukit Asam" class="img-responsive"></a>
+                            <a class="lang mobile"><img src="img/id.png" height="22" width="32" alt="Indonesian" class="img-responsive"></a>
                         </div>
                     </div>
-
-                    <div class="clearfix"></div>
-                    <nav class="navbar navbar-default navbar-right">
-                        <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav">
-                                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                                    <li><a href="#">Link</a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Another action</a></li>
-                                            <li><a href="#">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="#">Separated link</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="#">One more separated link</a></li>
-                                        </ul>
+                    <div class="col-lg-9 col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-10 col-lg-8 col-lg-offset-4 no-padding-mobile">
+                                <ul class="list-header pull-right">
+                                    <li><a href="">home</a></li>
+                                    <li><a href="">contact us</a></li>
+                                    <li>
+                                        <form class="form-inline pull-right">
+                                            <div class="form-group search">
+                                                <div class="input-group">
+                                                    <input type="search" class="form-control input-sm" id="search" placeholder="Search...">
+                                                    <div class="input-group-addon"><button type="submit" class=""><span class="glyphicon glyphicon-search"></span></button></div>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </li>
-                                    <li><a href="#">Link</a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Another action</a></li>
-                                            <li><a href="#">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="#">Separated link</a></li>
-                                        </ul>
+                                    <li class="desktop">
+                                        <a href="" class=""><img src="img/id.png" height="22" width="32" alt="" class="img-responsive lang"></a>
                                     </li>
                                 </ul>
-                            </div><!-- /.navbar-collapse -->
-                        </div><!-- /.container-fluid -->
-                    </nav>
+                            </div>
+                            <div class="col-xs-2 no-padding-mobile">
+                                <nav class="navbar navbar-default navbar-right pull-right mobile">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix visible-lg-block"></div>
+                    <div class="col-xs-12 col-lg-12">
+                        <nav class="navbar navbar-right pull-right">
+                            <div class="container-fluid no-padding mobile-padding">
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+
+                                        <li class="active"><a href="#">ABOUT US <span class="sr-only">(current)</span></a></li>
+                                        <li><a href="#">NEWS</a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INVESTOR RELATIONS <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Action</a></li>
+                                                <li><a href="#">Another action</a></li>
+                                                <li><a href="#">Something else here</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Separated link</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">One more separated link</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">CSR</a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">E-PROCUREMENT <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Action</a></li>
+                                                <li><a href="#">Another action</a></li>
+                                                <li><a href="#">Something else here</a></li>
+                                                <li role="separator" class="divider"></li>
+                                                <li><a href="#">Separated link</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
                 </div>
             </div>
-            <!-- end of row logo nav -->
-            <!-- accordion start -->
-            <div class="accordion wow slideInRight">
-                <img src="img/widget1.png" height="103" width="372" alt="" style="margin-bottom: 10px;">
-                <div class="widget">
-                    <h3>ANNUAL REPORT<span class="st-arrow"></h3>
-                    <div class="pane">
-                        <span><img src="img/dummy-list.png" height="20" width="268" alt=""></span><br>
-                        <span><img src="img/dummy-list.png" height="20" width="268" alt=""></span><br>
-                    </div>
-                </div>
-                <div class="widget">
-                    <h3>audit financial report<span class="st-arrow"></h3>
-                    <div class="pane">
-                        <span><img src="img/dummy-list.png" height="20" width="268" alt=""></span><br>
-                        <span><img src="img/dummy-list.png" height="20" width="268" alt=""></span><br>
-                    </div>
-                </div>
-                <div class="widget">
-                    <h3>company presentation<span class="st-arrow"></h3>
-                    <div class="pane">
-                        <img src="img/dummy-list2.png" height="91" width="285" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- accordion end -->
         </div>
+        <!-- end of row logo nav -->
+        <!-- accordion start -->
+        <div class="accordion wow slideInRight">
+            <img src="img/widget1.png" height="103" width="372" alt="" style="margin-bottom: 10px;" class="stocks">
+            <div class="widget">
+                <h3>ANNUAL REPORT<span class="st-arrow"></h3>
+                <div class="pane">
+                    <span><img src="img/dummy-list.png" height="20" width="268" alt=""></span><br>
+                    <span><img src="img/dummy-list.png" height="20" width="268" alt=""></span><br>
+                </div>
+            </div>
+            <div class="widget">
+                <h3>audit financial report<span class="st-arrow"></h3>
+                <div class="pane">
+                    <span><img src="img/dummy-list.png" height="20" width="268" alt=""></span><br>
+                    <span><img src="img/dummy-list.png" height="20" width="268" alt=""></span><br>
+                </div>
+            </div>
+            <div class="widget">
+                <h3>company presentation<span class="st-arrow"></h3>
+                <div class="pane">
+                    <img src="img/dummy-list2.png" height="91" width="285" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- accordion end -->
     </header>
     <article>
         <div class="container-fluid">
@@ -177,7 +160,7 @@
                                     <img class="img-icon" src="img/icon-news.png" alt="">
                                     <p>19 November 2015</p>
                                     <h2>PTBA Field Study Place for Forestry</h2>
-                                    <div class="divider"><img src="img/divider.png"></div>
+                                    <div class="divider"><img src="img/divider.png" class="divider"></div>
                                     <a href="#" class="info">see all news</a>
                                 </div>
                             </div>
@@ -193,7 +176,7 @@
                                     <img class="img-icon" src="img/icon-light.png">
                                     <p>19 November 2015</p>
                                     <h2>PTBA Field Study Place for Forestry</h2>
-                                    <div class="divider"><img src="img/divider.png"></div>
+                                    <div class="divider"><img src="img/divider.png" class="divider"></div>
                                     <a href="#" class="info">see all highlights</a>
                                 </div>
                             </div>
@@ -209,7 +192,7 @@
                                     <img class="img-icon" src="img/icon-archive.png">
                                     <p>19 November 2015</p>
                                     <h2>PTBA Field Study Place for Forestry</h2>
-                                    <div class="divider"><img src="img/divider.png"></div>
+                                    <div class="divider"><img src="img/divider.png" class="divider"></div>
                                     <a href="#" class="info">see all memories</a>
                                 </div>
                             </div>
@@ -228,7 +211,7 @@
 
                                     <p>24 Nov 2015
                                     Jumat (9/10) malam, PTBA gelar syukuran karena telah resmi menggunakan Ellips 8.5.3. di auditorium lantai IV GSG. Ellips adalah program aplikasi komputer yang dipakai PTBA dal ...</p>
-                                    <div class="divider"><img src="img/divider.png"></div>
+                                    <div class="divider"><img src="img/divider.png" class="divider"></div>
                                     <a href="#" class="info">visit our facebook page</a>
                                 </div>
                             </div>
@@ -252,7 +235,7 @@
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-xs-4">
                     <h5>about us</h5>
                     <ul class="list-unstyled">
                         <li><a href="">Company Profile</a></li>
@@ -265,7 +248,7 @@
                         <li><a href="">Awards and Certifications</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-xs-4">
                     <h5>news</h5>
                     <ul class="list-unstyled">
                         <li><a href="">Articles</a></li>
@@ -275,7 +258,7 @@
                         <li><a href="">Memories</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-xs-4">
                     <h5>CSR</h5>
                     <ul class="list-unstyled">
                         <li><a href="">About CSR</a></li>
@@ -283,7 +266,8 @@
                         <li><a href="">CSR News & Activities</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="clearfix visible-xs-block"></div>
+                <div class="col-lg-2 col-xs-4">
                     <h5>INVESTOR RELATIONS</h5>
                     <ul class="list-unstyled">
                         <li><a href="">Shareholder Information</a></li>
@@ -291,7 +275,7 @@
                         <li><a href="">Company Presentation</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-xs-4">
                     <h5>library</h5>
                     <ul class="list-unstyled">
                         <li><a href="">Knowledge Center</a></li>
@@ -302,7 +286,7 @@
                         <li><a href="">PTBA Regulations</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-xs-4">
                     <h5>ENVIRONMENT</h5>
                     <ul class="list-unstyled">
                         <li><a href="">Watershed Rehabilitation</a></li>
@@ -313,7 +297,7 @@
                 </div>
             </div>
             <div class="row footer-bottom">
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-xs-12">
                     <ul class="list-unstyled list-inline list-footer-bottom">
                         <li><a href="">e-procurement</a></li>
                         <li><a href="">jamkes</a></li>
@@ -321,17 +305,17 @@
                         <li><a href="">contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-1 no-padding">
+                <div class="col-lg-1 no-padding col-xs-12">
                     <ul class="list-unstyled list-inline list-icon">
                         <li><a href=""><i class="fa fa-facebook-square fa-3"></i></a></li>
                         <li><a href=""><i class="fa fa-youtube-square fa-3"></i></a></li>
                         <li><a href=""><i class="fa fa-linkedin-square fa-3"></i></a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-xs-6">
                     <p>Do you have a question? <br> Please contact Us  021.525.4014</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-xs-6">
                     <p>Copyright © 2014 - 2016 PT Bukit Asam (Persero) Tbk</p>
                 </div>
             </div>
