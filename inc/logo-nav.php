@@ -50,6 +50,9 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
+                                <li class="logo">
+                                    <a href="#" title="PT Bukit Asam"><img src="img/logo.png" alt="PT Bukit Asam" class="img-responsive"></a>
+                                </li>
                                 <li class=""><a href="#">ABOUT US <span class="sr-only">(current)</span></a></li>
                                 <li><a href="#">NEWS</a></li>
                                 <li class="dropdown">

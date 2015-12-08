@@ -11,7 +11,6 @@
                             <div class="post wow slideInUp" data-category="News">
                                 <div class="view view-first">
                                     <img src="img/dummy-img1.jpg" class="img-article img-responsive"/>
-                                    <i class="fa fa-newspaper-o"></i>
                                     <div class="mask">
                                         <div class="line">
                                             <img class="img-icon" src="img/icon-news.png" alt="">
@@ -27,8 +26,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
                             <div class="post wow slideInUp" data-category="Highlights">
                                 <div class="view view-first">
-                                    <img src="img/dummy-img1.jpg" height="412" width="620" class="img-article img-responsive" />
-                                    <i class="fa fa-lightbulb-o"></i>
+                                    <img src="img/dummy-img2.jpg" height="412" width="620" class="img-article img-responsive" />
                                     <div class="mask">
                                         <div class="line">
                                             <img class="img-icon" src="img/icon-light.png">
@@ -44,8 +42,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
                             <div class="post wow slideInUp" data-category="Memories">
                                 <div class="view view-first">
-                                    <img src="img/dummy-img1.jpg" height="412" width="620" class="img-article img-responsive" />
-                                    <i class="fa fa-archive"></i>
+                                    <img src="img/dummy-img3.jpg" height="412" width="620" class="img-article img-responsive" />
                                     <div class="mask">
                                         <div class="line">
                                             <img class="img-icon" src="img/icon-archive.png">

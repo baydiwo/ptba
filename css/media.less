@@ -99,9 +99,10 @@
             }
 
             .lang {
-                margin-top: 0px;
-                text-align: center;
-                margin-left: 0;
+                position: absolute;
+                right: 4%;
+                top: 10px;
+                cursor: pointer;
             }
 
             nav {
@@ -129,7 +130,7 @@
                         border-right:none;
                         border-top:1px solid @brown;
 
-                        &:first-child {
+                        &:nth-child(2) {
                             border:none;
                         }
                     }
@@ -192,7 +193,6 @@
 
             .widget {
                 background-color:rgba(151,41,40,1);
-                padding:20px;
 
                 .icon {
                     width: 20%;

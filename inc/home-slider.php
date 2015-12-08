@@ -1,4 +1,4 @@
-<div class="container-fluid no-padding">
+<div class="no-padding">
 <div id="fullpage" class="">
     <div class="section " id="section0">
         <div class="slide" id="slide1">

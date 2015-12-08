@@ -42,7 +42,7 @@ $(function () {
         else if ( $(paneId).is(":visible") == false ) {
             console.log(ini);
             $(".accordion .pane").slideUp(400).removeClass("opened");
-            $(".accordion h3").css("line-height","50px");
+            $(".accordion h3").css("line-height","13px");
             ini.show(400,function() {
                 $(".accordion " + paneId).slideDown().addClass("opened");
                 $(this).css("line-height","13px");
@@ -54,9 +54,9 @@ $(function () {
             $(".accordion .pane").removeClass("opened");
             $(paneId).hide(400, function() {
                $(".accordion " + paneId).slideUp(400);
-               $(widId).css("height","100px");
+               $(widId).css("height","41px");
             });
-            $(this).css("line-height","50px")
+            $(this).css("line-height","13px")
         }
 
         // console.log(widId+paneId+triggerId+thenum);
