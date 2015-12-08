@@ -7,7 +7,7 @@
             <article>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-6 no-padding">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
                             <div class="post wow slideInUp" data-category="News">
                                 <div class="view view-first">
                                     <img src="img/dummy-img1.jpg" class="img-article img-responsive"/>
@@ -24,7 +24,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 no-padding">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
                             <div class="post wow slideInUp" data-category="Highlights">
                                 <div class="view view-first">
                                     <img src="img/dummy-img1.jpg" height="412" width="620" class="img-article img-responsive" />
@@ -41,7 +41,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 no-padding">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
                             <div class="post wow slideInUp" data-category="Memories">
                                 <div class="view view-first">
                                     <img src="img/dummy-img1.jpg" height="412" width="620" class="img-article img-responsive" />
@@ -58,7 +58,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 no-padding">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
                             <div class="post fb-feed wow slideInUp">
                                 <div class="view view-first">
                                     <img src="img/dummy-img1.jpg" height="412" width="620" class="img-article img-responsive" />
