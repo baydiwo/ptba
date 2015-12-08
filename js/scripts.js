@@ -32,21 +32,31 @@ $(function () {
         var paneId = "#pane-"+thenum;
 
         if ( $(".accordion .pane").is(":visible") == false) {
-            $(paneId).show('fast', function() {
+            $(paneId).show(400, function() {
                 $(".accordion " + paneId).slideDown().addClass("opened");
             });
+            $(widId).css("height","auto");
+            ini.css("line-height","13px");
             console.log("true");
         }
         else if ( $(paneId).is(":visible") == false ) {
             console.log(ini);
-            $(".accordion .pane").slideUp("fast").removeClass("opened");
-            ini.show('fast',function() {
+            $(".accordion .pane").slideUp(400).removeClass("opened");
+            $(".accordion h3").css("line-height","50px");
+            ini.show(400,function() {
                 $(".accordion " + paneId).slideDown().addClass("opened");
+                $(this).css("line-height","13px");
+                $(widId).css("height","auto");
             });
         }
         else if ( $(".accordion .pane").is(":visible") == true ) {
-            console.log("true");
-            $(paneId).slideUp("fast");
+            console.log("else 3");
+            $(".accordion .pane").removeClass("opened");
+            $(paneId).hide(400, function() {
+               $(".accordion " + paneId).slideUp(400);
+               $(widId).css("height","100px");
+            });
+            $(this).css("line-height","50px")
         }
 
         // console.log(widId+paneId+triggerId+thenum);

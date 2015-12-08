@@ -231,9 +231,9 @@ header {
         &.sticky {
             position: fixed;
             z-index: 9;
-            padding: 10px 20px;
+            padding: 10px 0px;
             .box-shadow(0 1px 20px #222);
-            background: rgba(246,246,246,1);
+            background: rgba(246,246,246,.9);
 
             .logo , .list-header {
                 display: none;
@@ -311,7 +311,11 @@ header {
 
                 li {
                     width: 100%;
-                    // a:hover::before {background-color: @white;colo}
+                    border:none;
+
+                    &:first-child {
+                        border-left: none;
+                    }
                 }
             }
         }//nav
@@ -521,7 +525,7 @@ article {
             line-height: 1.2em;
             text-align: center;
             .transition(all ease .2s);
-            // text-shadow:1px 1px 3px #222;
+            z-index: 1;
         }
     }
     .view-first {
@@ -600,7 +604,7 @@ article {
         img {
            .transition(all 0.2s linear);
 
-           &.img-icon {height: 80px;}
+           &.img-icon {height: 80px;margin-top: 10px;}
            &.divider {width: 80%;}
         }
 
@@ -667,6 +671,9 @@ article {
     }
     .view-first:hover a.info {
        .transition-delay(0.2s);
+    }
+    .view-first:hover .fa {
+        opacity: 0;
     }
 
     .banner {

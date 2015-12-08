@@ -43,6 +43,10 @@
 
     header {
 
+        .slide{
+            background-size: cover;
+        }
+
         .logo {
             text-align: center;
             width: 100%;
@@ -52,12 +56,6 @@
                 text-align: center;
                 float: none;
                 display: inline;
-            }
-
-            .lang {
-                position: absolute;
-                right: 4%;
-                top: 10px;
             }
         }
 
@@ -225,16 +223,28 @@
 
     article {
         .post {
-            max-height: 240px;
+            max-height: 200px;
+
+            &::before {
+                font-size: 20px;
+                top: 100px;
+            }
+
             .view-first {
                 height: 100%;
+
                 h2 {font-size: 18px;}
+                p {margin-top: 0;}
+                a.info {font-size: 12px;}
+                .fa {
+                    font-size: 40px;
+                }
             }
 
             img {
 
                 &.img-icon {
-                    height: 70px @imp;
+                    height: 50px @imp;
                 }
             }
         }//post
@@ -243,22 +253,22 @@
 }
 
 @media only screen and (max-width: 767px){
-    article {
-        .post {
-            max-height: 240px;
-            .view-first {
-                height: 100%;
-                h2 {font-size: 18px;}
-            }
+    // article {
+    //     .post {
+    //         max-height: 240px;
+    //         .view-first {
+    //             height: 100%;
+    //             h2 {font-size: 18px;}
+    //         }
 
-            img {
+    //         img {
 
-                &.img-icon {
-                    height: 70px @imp;
-                }
-            }
-        }//post
-    }
+    //             &.img-icon {
+    //                 height: 70px @imp;
+    //             }
+    //         }
+    //     }//post
+    // }
 }//tablet
 
 
@@ -284,6 +294,77 @@
     footer {
         .list-icon {
             i {font-size:26px}
+        }
+    }
+
+    header {
+
+        .slide{
+            background-size: cover;
+        }
+        .accordion-container {
+            position: relative;
+        }
+        .accordion {
+            position: relative;
+            top: 0px;
+            right: 0;
+            padding: 20px;
+            max-width: 100%;
+            width: 100%;
+            background: @white;
+
+            .stocks {
+                width: 100%;
+                height: auto;
+            }
+
+            .widget {
+                background-color:rgba(151,41,40,1);
+                padding:20px;
+                width: 46%;
+                float: left;
+                margin: 10px 2%;
+                min-height: 100px;
+                height: 100px;
+
+                h3 {line-height: 50px;}
+                .icon {
+                    width: 20%;
+                    margin-right: 5%;
+                }
+                .detail {width: 75%;}
+            }
+
+        }
+
+        .logo-nav {
+
+            nav {
+                min-height: 0px;
+
+                ul {
+                    li {
+                        width: 100%;
+                        border:none !important;
+                    }
+                }
+
+                .navbar-toggle {display: block;margin:0 0 0 10px;border-color:@black;}
+                .navbar-collapse.collapse {display: none @imp;
+                    &.in {display: block @imp;}
+                }
+            }
+
+            .list-header {
+                li {display: inline-block;}
+            }
+
+            .lang {
+                position: absolute;
+                right: 4%;
+                top: 10px;
+            }
         }
     }
     article {

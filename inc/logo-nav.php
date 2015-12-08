@@ -9,7 +9,7 @@
             </div>
             <div class="col-lg-9 col-xs-12 col-sm-8">
                 <div class="row">
-                    <div class="col-xs-10 col-lg-8 col-lg-offset-4 no-padding-mobile col-sm-12">
+                    <div class="col-xs-10 col-lg-8 col-lg-offset-4 no-padding-mobile col-sm-11">
                         <ul class="list-header pull-right">
                             <li><a href="">home</a></li>
                             <li><a href="">contact us</a></li>
@@ -28,7 +28,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-xs-2 no-padding-mobile">
+                    <div class="col-xs-2 no-padding-mobile col-sm-1">
                         <nav class="navbar navbar-default navbar-right pull-right mobile">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
