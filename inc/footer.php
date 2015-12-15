@@ -1,6 +1,6 @@
 <div class="section fp-auto-height">
     <footer>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-2 col-xs-4 col-sm-2 col-md-2">
                     <h5>about us</h5>

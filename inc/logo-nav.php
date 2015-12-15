@@ -55,16 +55,33 @@
                                 </li>
                                 <li class=""><a href="#">ABOUT US <span class="sr-only">(current)</span></a></li>
                                 <li><a href="#">NEWS</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INVESTOR RELATIONS <span class="caret"></span></a>
+                                <li class="dropdown" id="accountmenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Click Here <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">One more separated link</a></li>
+                                        <li>
+                                            <a class="trigger right-caret">Level 1</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="#">Level 2</a></li>
+                                                <li>
+                                                    <a class="trigger right-caret">Level 2</a>
+                                                    <ul class="dropdown-menu sub-menu">
+                                                        <li><a href="#">Level 3</a></li>
+                                                        <li><a href="#">Level 3</a></li>
+                                                        <li>
+                                                            <a class="trigger right-caret">Level 3</a>
+                                                            <ul class="dropdown-menu sub-menu">
+                                                                <li><a href="#">Level 4</a></li>
+                                                                <li><a href="#">Level 4</a></li>
+                                                                <li><a href="#">Level 4</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Level 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Level 1</a></li>
+                                        <li><a href="#">Level 1</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">CSR</a></li>

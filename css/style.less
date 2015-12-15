@@ -117,7 +117,7 @@ header {
     /*Adding background for the slides
     * --------------------------------------- */
     .slide{
-        background-size: cover;
+        // background-size: cover;
         position: relative;
 
         &::after {
@@ -176,8 +176,49 @@ header {
         width: 100%;
         .transition(all ease .3s);
 
+        .dropdown-menu{
+
+            >li {
+                position:relative;
+                -webkit-user-select: none; /* Chrome/Safari */
+                -moz-user-select: none; /* Firefox */
+                -ms-user-select: none; /* IE10+ */
+                /* Rules below not implemented in browsers yet */
+                -o-user-select: none;
+                user-select: none;
+                cursor:pointer;
+            }
+
+            .sub-menu {
+                left: 100%;
+                position: absolute;
+                top: 0;
+                display:none;
+                margin-top: -1px;
+                box-shadow:none;
+            }
+
+            .right-caret:after,.left-caret:after{
+                content:"";
+                border-bottom: 5px solid transparent;
+                border-top: 5px solid transparent;
+                display: inline-block;
+                height: 0;
+                vertical-align: middle;
+                width: 0;
+                margin-left:160px;
+                top: 8px;
+            }
+            .right-caret:after {
+                border-left: 5px solid #ffaf46;
+            }
+            .left-caret:after {
+                border-right: 5px solid #ffaf46;
+            }
+        }
+
         .container {
-            max-width: 960px;
+            // max-width: 960px;
         }
 
         .list-header {
@@ -248,28 +289,28 @@ header {
             .box-shadow(0 1px 20px #222);
             background: rgba(246,246,246,.9);
 
-            .container {
-                max-width: 100%;
-                width: 100%;
-            }
+            // .container {
+            //     max-width: 100%;
+            //     width: 100%;
+            // }
 
-            .logo , .list-header {
-                display: none;
-            }
+            // .logo , .list-header {
+            //     display: none;
+            // }
 
-            nav {
-                margin-top: 0;
+            // nav {
+            //     margin-top: 0;
 
-                li.logo {display: block;}
-                li{
-                    height: 60px;
-                    width: calc(100%/6);
+            //     li.logo {display: block;}
+            //     li{
+            //         height: 60px;
+            //         width: calc(100%/6);
 
-                    a {height: 100%;line-height: 50px;}
+            //         a {height: 100%;line-height: 50px;}
 
 
-                }
-            }
+            //     }
+            // }
         }
 
         .lang {
@@ -626,7 +667,7 @@ article {
             .line {
                 width: 100%;
                 height: 100%;
-                border:2px solid @brown;
+                // border:2px solid @brown;
                 padding:20px 2%;
                 text-align: center;
 
@@ -647,7 +688,7 @@ article {
             top: 0;
             width: 96%;
             height: 90%;
-            border:2px solid @darkBrown;
+            // border:2px solid @darkBrown;
             margin:2%;
             .transform(all ease-in .2s);
         }
