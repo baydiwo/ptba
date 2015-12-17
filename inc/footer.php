@@ -98,6 +98,7 @@
     <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
     <script type="text/javascript" src="js/jquery.easings.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 
     <script type="text/javascript" src="js/scripts.js"></script>
 

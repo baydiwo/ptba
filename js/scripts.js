@@ -18,6 +18,15 @@ $(document).ready(function() {
             $('.logo-nav').removeClass("sticky");
         }
     });
+
+    $('.carousel').bxSlider({
+      minSlides: 3,
+      maxSlides: 3,
+      slideWidth: 370,
+      slideMargin: 10,
+      nextText: " ",
+      prevText: " ",
+    });
 });
 
 $(function () {

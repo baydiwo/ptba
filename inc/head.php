@@ -12,6 +12,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/jquery.fullPage.css" rel="stylesheet" type="text/css" />
     <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/media.css" rel="stylesheet" type="text/css" media="all">
 
