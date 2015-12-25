@@ -20,8 +20,8 @@
     <article class="article">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="title">
+                <div class="col-lg-12">
+                    <div class="title" id="history">
                          <h2><span>history</span></h2>
                      </div>
                 </div>
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="title">
+                    <div class="title" id="our">
                          <h2><span>our culture</span></h2>
                      </div>
                 </div>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="title">
+                    <div class="title" id="vision">
                          <h2><span>vision &amp; mission</span></h2>
                      </div>
                 </div>

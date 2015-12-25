@@ -53,48 +53,98 @@
                                 <li class="logo">
                                     <a href="#" title="PT Bukit Asam"><img src="img/logo.png" alt="PT Bukit Asam" class="img-responsive"></a>
                                 </li>
-                                <li class=""><a href="#">ABOUT US <span class="sr-only">(current)</span></a></li>
-                                <li><a href="#">NEWS</a></li>
                                 <li class="dropdown" id="accountmenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Click Here <span class="caret"></span></a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a class="trigger right-caret">Level 1</a>
+                                            <a class="trigger right-caret">COMPANY PROFILE</a>
                                             <ul class="dropdown-menu sub-menu">
-                                                <li><a href="#">Level 2</a></li>
-                                                <li>
-                                                    <a class="trigger right-caret">Level 2</a>
-                                                    <ul class="dropdown-menu sub-menu">
-                                                        <li><a href="#">Level 3</a></li>
-                                                        <li><a href="#">Level 3</a></li>
-                                                        <li>
-                                                            <a class="trigger right-caret">Level 3</a>
-                                                            <ul class="dropdown-menu sub-menu">
-                                                                <li><a href="#">Level 4</a></li>
-                                                                <li><a href="#">Level 4</a></li>
-                                                                <li><a href="#">Level 4</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Level 2</a></li>
+                                                <li><a href="#history">HISTORY</a></li>
+                                                <li><a class="#video">VIDEO PROFILE</a></li>
+                                                <li><a class="#our">OUR CULTURE</a></li>
+                                                <li><a class="#vision">VISION & MISSION</a></li>
+                                                <li><a class="#location">LOCATION</a></li>
+                                                <li><a class="#SUBSIDIARIES">SUBSIDIARIES</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Level 1</a></li>
-                                        <li><a href="#">Level 1</a></li>
+                                        <li>
+                                            <a class="trigger right-caret">ORGANIZATION</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="#">ORGANIZATION STRUCTURE</a></li>
+                                                <li><a class="#">BOARD OF COMMISSIONERSE</a></li>
+                                                <li><a class="#">BOARD OF DIRECTORS</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">FROM CEO DESK</a></li>
+                                        <li><a href="#">GOOD CORPORATE GOVERNANCE</a></li>
+                                        <li>
+                                            <a class="trigger right-caret">WHISTLE BLOWING SYSTEM</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="#">ABOUT WHISTLE BLOWING SYSTEM</a></li>
+                                                <li><a class="#">MECHANISM</a></li>
+                                                <li><a class="#">SUBMIT REPORT</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="trigger right-caret">OUR BUSINESS</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="#">WORKFLOW</a></li>
+                                                <li><a class="#">BRAND</a></li>
+                                                <li><a class="#">MARKETING</a></li>
+                                                <li><a class="#">PRODUCTION</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="trigger right-caret">AWARDS & CERTIFICATIONS</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="#">AWARDS</a></li>
+                                                <li><a class="#">CERTIFICATIONS</a></li>
+                                            </ul>
+                                        </li>
                                     </ul>
                                 </li>
-                                <li><a href="#">CSR</a></li>
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">E-PROCUREMENT <span class="caret"></span></a>
+                                <li class="dropdown" id="accountmenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">NEWS<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li role="separator" class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">NEWS</a></li>
+                                        <li><a href="#">ARTICLES</a></li>
+                                        <li><a href="#">CSR NEWS & ACTIVITIES</a></li>
+                                        <li><a href="#">PRESS RELEASE</a></li>
+                                        <li><a href="#">HIGHLIGHT</a></li>
+                                        <li><a href="#">MEMORIES</a></li>
                                     </ul>
                                 </li>
+                                <li class="dropdown" id="accountmenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">INVESTOR RELATIONS<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="trigger right-caret">SHAREHOLDER INFORMATION</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="#">SHARE PRICE</a></li>
+                                                <li><a class="#">INFO MEMO</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="trigger right-caret">COMPANY REPORT</a>
+                                            <ul class="dropdown-menu sub-menu">
+                                                <li><a href="#">AUDIT FINANCIAL REPORT</a></li>
+                                                <li><a class="#">QUARTERLY FINANCIAL</a></li>
+                                                <li><a class="#">FINANCIAL HIGHLIGHT</a></li>
+                                                <li><a class="#">ANNUAL REPORT</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">COMPANY PRESENTATION</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown" id="accountmenu">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">CSR<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">ABOUT CSR</a></li>
+                                        <li><a href="#">SUSTAINABLE REPORT</a></li>
+                                        <li><a href="#">CSR NEWS & ACTIVITIES</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">E-PROCUREMENT</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->

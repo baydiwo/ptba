@@ -18,11 +18,17 @@ body {
     font-size: 14px;
     background-color: @white;
     position: relative;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 
     .container-fluid {
         // max-width: 1360px;
         // width: 100%;
         // margin: 0 auto !important;
+        overflow: hidden;
+    }
+
+    .container {
         overflow: hidden;
     }
 }
@@ -81,6 +87,7 @@ a {
 
     &:hover,&:focus {
         color: @blue;
+        text-decoration: none;
     }
 }
 
@@ -123,8 +130,9 @@ header {
     .slide{
         // background-size: cover;
         position: relative;
+        padding: 6% 0 0 0;
 
-        &::after {
+        &::before {
             content: " ";
             background: url(../img/overlay2.png) repeat;
             position: absolute;
@@ -1074,4 +1082,326 @@ article {
         }
     }
 
+    .news {
+        .news-box {
+            height:100%;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #cccccc;
+            margin-bottom: 40px;
+            max-height: 640px;
+            overflow:hidden;
+
+            h3 {
+                font-family: @poly;
+                text-align: center;
+                margin-bottom: 20px;
+                color:@black;
+            }
+            .date-share {
+                text-align: center;
+                color:#818181;
+                font:normal 18px/1.2em @poly;
+                margin-bottom: 20px;
+
+                li:first-child {
+                    border-right: 1px solid #818181;
+                }
+                li {
+                    padding:0 20px;
+
+                    i {
+                        margin-right: 10px;
+                        .transition(all ease .2s);
+
+                        &:hover {
+                            color:@blue;
+                        }
+                    }
+                }
+            }
+
+            p {
+                color:@black;
+                font-size: 16px;
+                font-family: @poly;
+                line-height: 30px;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .news-pagination {
+        text-align: center;
+
+        ul {
+            .border-radius(0 0 0 0);
+            li {
+
+                a {
+                    font-family: @arimo;
+                    font-size: 18px;
+                    background: #eeeeee;
+                    border:none;
+                    padding:20px 25px;
+                    color:@black;
+                    .border-radius(0 0 0 0) !important;
+
+                    &:hover , &:focus {
+                       background:@brown;
+                        color:@white;
+                    }
+                }
+
+                &.active {
+                    a {
+                        background:@brown;
+                        color:@white;
+                        // .border-radius(0 0 0 0);
+                    }
+
+                    &:hover {
+                        a {
+                            background:@brown;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .investor-relations {
+
+        .box {
+            text-align: center;
+            width: 100%;
+            border-style: solid;
+            border-width: 1px;
+            padding: 20px;
+            margin-top: 40px;
+
+            span.year {
+                font-size: 42px;
+                border-bottom: 1px solid @orange;
+                padding-bottom: 10px;
+            }
+            p {
+                font-size: 18px;
+                font-style: italic;
+                text-transform: uppercase;
+                margin: 0;
+                height: 80px;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                width: 330px;
+            }
+            span.download {
+                font-size: 18px;
+                border-top:1px solid @orange;
+                padding-top: 10px;
+
+                a {
+                    color: @black;
+                }
+
+            }
+
+            &.yellow {
+                border-color: @orange;
+                span.year {
+                    color: @orange;
+                    border-color: @orange;
+                }
+                span.download {
+                    border-color: @orange;
+                }
+            }
+
+            &.brown {
+                border-color: @brown;
+                span.year {
+                    color: @brown;
+                    border-color: @brown;
+                }
+                span.download {
+                    border-color: @brown;
+                }
+            }
+
+            &.blue {
+                border-color: @blue;
+                span.year {
+                    color: @blue;
+                    border-color: @blue;
+                }
+                span.download {
+                    border-color: @blue;
+                }
+            }
+
+        }//box
+
+        .year-title {
+            font-size: 36px;
+            font-family: @poly;
+            color: @brown;
+            border-bottom:1px solid @black;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    }//investor relations
+
+    .thumb-report {
+        text-align: center;
+        margin-bottom: 40px;
+
+        .year {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .thumb {
+            position: relative;
+            max-width: 570px;
+
+            .download {
+                position: absolute;
+                left: 50%;
+                top:50%;
+                padding: 5px;
+                border:1px solid white;
+                margin-left: calc(-111px/2);
+                margin-top: calc(-42px/2);
+
+                .text {
+                    padding: 0px 10px;
+                    background: white;
+
+                    i{
+                        font-size: 16px;
+                        color: @black;
+                    }
+                }
+            }
+
+            &:before {
+                position: absolute;
+                top:0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                opacity: .5;
+                content: "";
+                .transition(all ease .3s);
+            }
+
+            &:hover{
+
+                &:before {
+                    background: white;
+                }
+            }
+        }//thumb
+    }//thumb-report
+
+    @breakpoint-alpha: 480px; // adjust to your needs
+
+    .rwd-table {
+      margin: 1em 0;
+      min-width: 300px; // adjust to your needs
+
+      tr {
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        display: none; // for accessibility, use a visually hidden method here instead! Thanks, reddit!
+        text-transform: uppercase;
+      }
+
+      td {
+        display: block;
+        padding: .2em;
+
+        // &:first-child {
+        //   padding-top: .5em;
+        // }
+        // &:last-child {
+        //   padding-bottom: .5em;
+        // }
+
+        &:before {
+          content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
+          font-weight: bold;
+          text-transform: uppercase;
+
+          // optional stuff to make it look nicer
+          width: 10em; // magic number :( adjust according to your own content
+          display: inline-block;
+          // end options
+
+          @media (min-width: @breakpoint-alpha) {
+            display: none;
+          }
+        }
+      }
+
+      th, td {
+        text-align: left;
+
+        @media (min-width: @breakpoint-alpha) {
+          display: table-cell;
+          padding: .25em .5em;
+
+          &:first-child {
+            padding-left: 0;
+          }
+
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+
+      }
+    }
+
+    .rwd-table {
+      background: #eaeaea;
+      color: @black;
+      overflow: hidden;
+      width: 100%;
+
+      th {
+        background: @blue;
+        color: @white;
+      }
+      tr.heading2 {
+
+        th {
+            background: @brown;
+            color: @white;
+        }
+      }
+      tr {
+        border-color: white;
+      }
+
+      tr:nth-child(even) {
+        background: darken(@white,5%);
+      }
+
+      th, td {
+        margin: .5em 1em;
+        @media (min-width: @breakpoint-alpha) {
+          padding: 1em !important;
+        }
+      }
+      td:before {
+        color: @brown;
+      }
+    }
 }//article
