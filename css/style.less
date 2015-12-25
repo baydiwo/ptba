@@ -937,6 +937,30 @@ article {
             }
         }
 
+        &.no-shadow {
+            &:before , &:after {
+                display: none;
+            }
+
+            aside {
+                padding: 30px;
+
+                &:before {
+                    display: none;
+                }
+            }
+        }
+
+    }//quotes
+
+    .quotes-2 {
+        font-family: @raleway;
+        font-size: 16px;
+        line-height: 30px;
+        padding: 30px;
+        border:1px solid #cccccc;
+        margin-bottom: 40px;
+        background: #f2f2f2;
     }
 
     .content {

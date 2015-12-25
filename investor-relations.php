@@ -182,7 +182,7 @@
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
                     <div class="thumb-report">
-                        <spvan class="year">2014</span>
+                        <span class="year">2014</span>
                         <div class="thumb">
                             <a href="">
                                 <img src="img/thumb-report-big.jpg" height="570" width="570" alt="" class="img-responsive">
@@ -198,7 +198,7 @@
                 <div class="clearfix"></div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <div class="thumb-report">
-                        <spvan class="year">2014</span>
+                        <span class="year">2014</span>
                         <div class="thumb">
                             <a href="">
                                 <img src="img/thumb-report-big.jpg" height="570" width="570" alt="" class="img-responsive">
@@ -228,7 +228,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <div class="thumb-report">
-                        <spvan class="year">2014</span>
+                        <span class="year">2014</span>
                         <div class="thumb">
                             <a href="">
                                 <img src="img/thumb-report-big.jpg" height="570" width="570" alt="" class="img-responsive">
@@ -243,7 +243,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                     <div class="thumb-report">
-                        <spvan class="year">2014</span>
+                        <span class="year">2014</span>
                         <div class="thumb">
                             <a href="">
                                 <img src="img/thumb-report-big.jpg" height="570" width="570" alt="" class="img-responsive">
@@ -257,6 +257,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </article>
 
 
