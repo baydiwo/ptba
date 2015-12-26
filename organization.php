@@ -41,12 +41,12 @@
                      </div>
                 </div>
                 <div class="row org-list">
-                    <div class="col-lg-4">
+                    <div class="col-sm-4 col-xs-12">
                         <div class="people">
                             <img src="img/comm.jpg" class="img-responsive">
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-sm-8 col-xs-12">
                         <h3>Agus Suhartono</h3>
                         <span class="pos">President Commissioner / Independent Commissioner</span>
                         <p>
@@ -56,12 +56,12 @@
                     </div>
                 </div>
                 <div class="row org-list">
-                    <div class="col-lg-3">
+                    <div class="col-sm-3 col-xs-12">
                         <div class="people">
                             <img src="img/comm.jpg" class="img-responsive">
                         </div>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-sm-9 col-xs-12">
                         <h3>Agus Suhartono</h3>
                         <span class="pos">President Commissioner / Independent Commissioner</span>
                         <p>

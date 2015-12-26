@@ -54,12 +54,12 @@
                 </div>
 
                 <div class="row org-list">
-                    <div class="col-lg-3">
+                    <div class="col-sm-3 col-xs-12">
                         <div class="people">
                             <img src="img/comm.jpg" class="img-responsive">
                         </div>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-sm-9 col-xs-12">
                         <h3>Agus Suhartono</h3>
                         <span class="pos">President Commissioner / Independent Commissioner</span>
                         <p>
@@ -70,77 +70,6 @@
                 </div>
             </div> <!-- row -->
         </div><!-- container -->
-
-        <div id="fullpage">
-            <div class="section location">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="title">
-                                 <h2><span>vision &amp; mission</span></h2>
-                             </div>
-                        </div>
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="map">
-                                <img src="img/map.jpg" height="411" width="970" alt="" class="img-responsive">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section subsdiaries">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="title">
-                                 <h2><span>vision &amp; mission</span></h2>
-                             </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <ul class="carousel">
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </article>
 
 

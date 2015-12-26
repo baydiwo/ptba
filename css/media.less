@@ -1,5 +1,5 @@
 @import "build/lesshat.less";
-@screen-xs-max : 568px;
+@screen-xs-max : 768px;//568px
 @screen-sm-min : 568px;
 @screen-sm-max : 1024px;
 @screen-md-min : 1024px;
@@ -25,7 +25,7 @@
 
     h1 {font-size: 30px;}
     h2 {font-size: 24px;}
-    h3 {font-size: 20px;}
+    h3 {font-size: 20px !important;}
     h4 {font-size: 18px;}
     h5 {font-size: 14px @imp;}
     p {font-size: 11px @imp;}
@@ -219,6 +219,10 @@
             text-align: center;
             li  a {padding: 0 5px;}
         }
+
+        .list-long {
+            height:160px;
+        }
     }
 
     article {
@@ -248,7 +252,27 @@
                 }
             }
         }//post
-    }
+
+        .org-list {
+
+            h3 {margin-top: 10px;}
+
+            span.pos {
+                font-size: 14px;
+            }
+        }
+
+        .quotes {
+            aside {
+                padding:10px 15px !important;
+                font-size: 16px;
+            }
+        }
+
+        .quotes-2 {
+            padding:10px 15px;
+        }
+    }//article
 
 }
 
