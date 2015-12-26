@@ -46,8 +46,17 @@
                     </div>
                 </div>
 
-
+                <div class="col-lg-12">
+                    <div class="quotes left-line">
+                         <aside>
+                             The Company’s CSR vision is “to achieve prosperous, selfreliant and environmentally friendly community.
+                             <br>
+                             <span>- CSR Vision</span>
+                         </aside>
+                     </div>
+                </div>
             </div> <!-- row -->
+
             <br/>
             <div class="row">
                 <div class="col-lg-12">
