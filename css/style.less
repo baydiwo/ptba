@@ -29,7 +29,7 @@ body {
     }
 
     .container {
-        overflow: hidden;
+        // overflow: hidden;
     }
 }
 
@@ -190,6 +190,8 @@ header {
         .transition(all ease .3s);
 
         .dropdown-menu{
+            width: 275px !important;
+            left: -25px;
 
             >li {
                 position:relative;
@@ -219,7 +221,7 @@ header {
                 height: 0;
                 vertical-align: middle;
                 width: 0;
-                margin-left:160px;
+                margin-left:260px;
                 top: 8px;
             }
             .right-caret:after {
@@ -526,10 +528,17 @@ header {
             max-height:400px;
             height:400px;
             width:100%;
-            background-size:cover !important;
+            // background-size:cover !important;
             position:relative;
             top:0;
             left:0;
+            background:url(../img/overlay2.png) repeat;
+
+            img {
+                width:100%;
+                position:relative;
+                z-index: -1;
+            }
 
             .caption {
                 width:100%;
@@ -548,7 +557,7 @@ header {
                 }
             }
         }
-    }
+    }//section
 
 }//header
 
@@ -1515,6 +1524,43 @@ article {
             text-align: left;
             p {}
         }
+    }//news detail
 
+    .org-list {
+        background:white;
+        padding: 20px;
+        margin-bottom: 20px;
+        clear:both;
+
+        .people {
+            img {width:100%;}
+        }
+
+        h3 {
+            font-size: 32px;
+            margin-top: 0;
+        }
+
+        span.pos {
+            font-size: 16px;
+            color:#818181;
+            margin-bottom: 20px;
+            position:relative;
+            display:block;
+
+            &:before {
+                border-bottom: 1px solid @brown;
+                bottom: -10px;
+                content: "";
+                height: 0;
+                left: 0;
+                position: absolute;
+                width: 60%;
+            }
+        }
+
+        p {
+            font-size: 16px;
+        }
     }
 }//article

@@ -4,12 +4,44 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-align"
+				"ab",
+				"header-about-us.jpg	w:1280 h:400"
+			],
+			[
+				"o",
+				"overlay2.png	w:48 h:48"
+			],
+			[
+				"overla",
+				"overlay	(from-ceo.php)"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"d",
+				"display"
 			],
 			[
 				"mar",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"a",
+				"align	Attr"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"font-",
@@ -26,10 +58,6 @@
 			[
 				"wid",
 				"width"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"thu",
@@ -86,10 +114,6 @@
 			[
 				"max",
 				"max-width"
-			],
-			[
-				"cl",
-				"clearfix"
 			],
 			[
 				"pane",
@@ -156,10 +180,6 @@
 				"font-size"
 			],
 			[
-				"a",
-				"absolute"
-			],
-			[
 				"inline",
 				"inline-block"
 			],
@@ -202,10 +222,6 @@
 			[
 				"wo",
 				"wow.min.js"
-			],
-			[
-				"d",
-				"dummy-search.png	w:251 h:30"
 			],
 			[
 				"arr",
@@ -415,23 +431,23 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 34553,
+				"buffer_size": 37105,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "news-detail.php",
+			"file": "organization.php",
 			"settings":
 			{
-				"buffer_size": 11773,
+				"buffer_size": 4224,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "news.php",
+			"file": "from-ceo.php",
 			"settings":
 			{
-				"buffer_size": 7327,
+				"buffer_size": 10531,
 				"line_ending": "Windows"
 			}
 		}
@@ -443,21 +459,33 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 363.0,
-		"last_filter": "reind",
+		"height": 272.0,
+		"last_filter": "remove",
 		"selected_items":
 		[
 			[
-				"reind",
-				"Indentation: Reindent Lines"
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"them",
+				"Themr: List themes"
 			],
 			[
 				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"remove",
-				"Package Control: Remove Package"
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"reidn",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
 			],
 			[
 				"html",
@@ -488,7 +516,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 514.0
+		"width": 510.0
 	},
 	"console":
 	{
@@ -510,17 +538,21 @@
 	"expanded_folders":
 	[
 		"/D/xampp/htdocs/ptba",
-		"/D/xampp/htdocs/ptba/css",
 		"/D/xampp/htdocs/ptba/inc",
 		"/D/xampp/htdocs/ptba/js"
 	],
 	"file_history":
 	[
-		"/D/xampp/htdocs/ptba/js/scripts.js",
-		"/D/xampp/htdocs/ptba/news.php",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Windows/System32/drivers/etc/HOSTS.BackupByPhotoshopPortable",
+		"/D/xampp/htdocs/ptba/from-ceo.php",
 		"/D/xampp/htdocs/ptba/investor-relations.php",
 		"/D/xampp/htdocs/ptba/csr.php",
+		"/D/xampp/htdocs/ptba/news-detail.php",
 		"/D/xampp/htdocs/ptba/about-us.php",
+		"/D/xampp/htdocs/ptba/js/scripts.js",
+		"/D/xampp/htdocs/ptba/news.php",
 		"/D/xampp/htdocs/ptba/inc/logo-nav.php",
 		"/C/Users/Bayu/AppData/Local/Temp/7zO0DF7F65E/investor-relations.php",
 		"/C/Users/Bayu/AppData/Local/Temp/7zO0DFF2A7E/csr.php",
@@ -528,7 +560,6 @@
 		"/D/xampp/htdocs/ptba/css/style.less",
 		"/D/xampp/htdocs/ptba/inc/home-slider.php",
 		"/D/xampp/htdocs/fm/mgm_apps/application/views/vmain.php",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/D/xampp/htdocs/test/colorbox-master/example2/index.html",
 		"/D/xampp/htdocs/ptba/css/jquery.bxslider.less",
 		"/D/xampp/htdocs/ptba/inc/footer.php",
@@ -639,15 +670,11 @@
 		"/D/xampp/htdocs/test/Nivo-Slider-master/demo/demo.html",
 		"/C/Users/Bayu/AppData/Local/Temp/$$_5F76/woothemes-FlexSlider-83b3cae/demo/js/demo.js",
 		"/D/xampp/htdocs/corcomm/css/style.less",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/Less2Css/README.md",
-		"/D/xampp/htdocs/hofris/css/style.css",
-		"/D/xampp/htdocs/hofris/css/flexslider.less",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings"
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/Less2Css/README.md"
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -663,6 +690,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"soda",
+			"\">\n",
+			"theme",
+			"folder",
+			"left-lin",
+			"col-xs-6",
+			"col-lg-12",
+			".box",
+			"box",
 			"date-share",
 			"spvan",
 			"col2",
@@ -781,16 +817,7 @@
 			"width:100%;",
 			"img",
 			"<ul class=\"list-unstyled\">\n                                    <li><a href=\"\"><img src=\"img/dummy-list.png\" height=\"20\" width=\"268\" alt=\"\"></a></li>\n                                    <li><a href=\"\"><img src=\"img/dummy-list.png\" height=\"20\" width=\"268\" alt=\"\"></a></li>\n                                </ul>",
-			"fff",
-			"040088",
-			"1693eb",
-			"class=\"slide\"",
-			"</p></a>",
-			"</a>",
-			"<p><?php the_field('text') ?> ...</p>",
-			"$screen",
-			"current_user",
-			"roboto"
+			"fff"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -818,15 +845,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 34553,
+						"buffer_size": 37105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34404,
-								34404
+								4911,
+								4912
 							]
 						],
 						"settings":
@@ -834,21 +861,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -859,16 +876,36 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -878,24 +915,14 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_unmatched_content"
 							],
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 21071.0,
+						"translation.y": 2818.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -903,19 +930,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "news-detail.php",
+					"file": "organization.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11773,
+						"buffer_size": 4224,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2539,
-								2539
+								3225,
+								3225
 							]
 						],
 						"settings":
@@ -924,21 +951,11 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -949,16 +966,36 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -968,25 +1005,15 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_unmatched_content"
 							],
 							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 405.0,
+						"translation.y": 1097.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -994,19 +1021,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "news.php",
+					"file": "from-ceo.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7327,
+						"buffer_size": 10531,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								834,
-								834
+								217,
+								217
 							]
 						],
 						"settings":
@@ -1015,16 +1042,11 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1035,6 +1057,31 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1045,31 +1092,11 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_default_content"
 							],
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
@@ -1091,7 +1118,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 90.0
 	},
 	"layout":
 	{
@@ -1124,7 +1151,7 @@
 	"project": "sublime-project.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 406.0
 	},
 	"save_all_on_build": true,
 	"select_file":
