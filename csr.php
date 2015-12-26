@@ -4,7 +4,8 @@
         <?php include "inc/logo-nav.php" ?>
         <!-- end of row logo nav -->
             <section>
-                <div class="article-header" style="background:url(img/header-about-us.jpg) no-repeat center center;">
+                <div class="article-header">
+                    <img src="img/header-about-us.jpg" height="400" width="1280" class="img-responsive">
                     <div class="caption">
                         <div class="container">
                             <div class="row">

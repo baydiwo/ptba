@@ -20,7 +20,7 @@ $(document).ready(function() {
     });
 
     $('.carousel').bxSlider({
-      minSlides: 3,
+      minSlides: 1,
       maxSlides: 3,
       slideWidth: 370,
       slideMargin: 10,

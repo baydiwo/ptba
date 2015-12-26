@@ -59,20 +59,20 @@
                                         <li>
                                             <a class="trigger right-caret">COMPANY PROFILE</a>
                                             <ul class="dropdown-menu sub-menu">
-                                                <li><a href="#history">HISTORY</a></li>
-                                                <li><a class="#video">VIDEO PROFILE</a></li>
-                                                <li><a class="#our">OUR CULTURE</a></li>
-                                                <li><a class="#vision">VISION & MISSION</a></li>
-                                                <li><a class="#location">LOCATION</a></li>
-                                                <li><a class="#SUBSIDIARIES">SUBSIDIARIES</a></li>
+                                                <li><a href="about-us.php#history">HISTORY</a></li>
+                                                <li><a href="about-us.php#video-profile">VIDEO PROFILE</a></li>
+                                                <li><a href="about-us.php#our-culture">OUR CULTURE</a></li>
+                                                <li><a href="about-us.php#vision">VISION & MISSION</a></li>
+                                                <li><a href="about-us.php#location">LOCATION</a></li>
+                                                <li><a href="about-us.php#subsdiaries">SUBSIDIARIES</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <a class="trigger right-caret">ORGANIZATION</a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li><a href="#">ORGANIZATION STRUCTURE</a></li>
-                                                <li><a class="#">BOARD OF COMMISSIONERSE</a></li>
-                                                <li><a class="#">BOARD OF DIRECTORS</a></li>
+                                                <li><a href="#">BOARD OF COMMISSIONERSE</a></li>
+                                                <li><a href="#">BOARD OF DIRECTORS</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">FROM CEO DESK</a></li>
@@ -81,24 +81,24 @@
                                             <a class="trigger right-caret">WHISTLE BLOWING SYSTEM</a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li><a href="#">ABOUT WHISTLE BLOWING SYSTEM</a></li>
-                                                <li><a class="#">MECHANISM</a></li>
-                                                <li><a class="#">SUBMIT REPORT</a></li>
+                                                <li><a href="#">MECHANISM</a></li>
+                                                <li><a href="#">SUBMIT REPORT</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <a class="trigger right-caret">OUR BUSINESS</a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li><a href="#">WORKFLOW</a></li>
-                                                <li><a class="#">BRAND</a></li>
-                                                <li><a class="#">MARKETING</a></li>
-                                                <li><a class="#">PRODUCTION</a></li>
+                                                <li><a href="#">BRAND</a></li>
+                                                <li><a href="#">MARKETING</a></li>
+                                                <li><a href="#">PRODUCTION</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <a class="trigger right-caret">AWARDS & CERTIFICATIONS</a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li><a href="#">AWARDS</a></li>
-                                                <li><a class="#">CERTIFICATIONS</a></li>
+                                                <li><a href="#">CERTIFICATIONS</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -121,16 +121,16 @@
                                             <a class="trigger right-caret">SHAREHOLDER INFORMATION</a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li><a href="#">SHARE PRICE</a></li>
-                                                <li><a class="#">INFO MEMO</a></li>
+                                                <li><a href="#">INFO MEMO</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <a class="trigger right-caret">COMPANY REPORT</a>
                                             <ul class="dropdown-menu sub-menu">
                                                 <li><a href="#">AUDIT FINANCIAL REPORT</a></li>
-                                                <li><a class="#">QUARTERLY FINANCIAL</a></li>
-                                                <li><a class="#">FINANCIAL HIGHLIGHT</a></li>
-                                                <li><a class="#">ANNUAL REPORT</a></li>
+                                                <li><a href="#">QUARTERLY FINANCIAL</a></li>
+                                                <li><a href="#">FINANCIAL HIGHLIGHT</a></li>
+                                                <li><a href="#">ANNUAL REPORT</a></li>
                                             </ul>
                                         </li>
                                         <li><a href="#">COMPANY PRESENTATION</a></li>

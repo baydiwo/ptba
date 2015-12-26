@@ -4,14 +4,16 @@
         <?php include "inc/logo-nav.php" ?>
         <!-- end of row logo nav -->
             <section>
-                <div class="article-header" style="background:url(img/header-about-us.jpg) no-repeat center center;">
+                <div class="article-header">
+                    <img src="img/header-about-us.jpg" height="400" width="1280" class="img-responsive">
                     <div class="caption">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-6"><h1>about us</h1></div>
                                 <div class="col-lg-6"><h2 class="pull-right">company profile</h2></div>
                             </div>
-                        </div>                    </div>
+                        </div>
+                    </div>
                 </div>
             </section>
     </header>

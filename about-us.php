@@ -4,7 +4,8 @@
         <?php include "inc/logo-nav.php" ?>
         <!-- end of row logo nav -->
             <section>
-                <div class="article-header" style="background:url(img/header-about-us.jpg) no-repeat center center;">
+                <div class="article-header">
+                    <img src="img/header-about-us.jpg" height="400" width="1280" class="img-responsive">
                     <div class="caption">
                         <div class="container">
                             <div class="row">
@@ -49,14 +50,14 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="title" id="history">
+                    <div class="title" id="video-profile">
                          <h2><span>video profile</span></h2>
                      </div>
                 </div>
 
                 <div class="col-lg-12">
                     <div class="content col2">
-                    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/uiPoj_1k9fs" frameborder="0" allowfullscreen></iframe></p>
+                    <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/uiPoj_1k9fs" frameborder="0" allowfullscreen></iframe></p>
                         <p>
                             <span class="first">T</span>he coal mining in Tanjung Enim was initiated by the Dutch Colonial Government in 1919 by operating the first coal mine using open pit mining method in Air Laya.
 
@@ -73,13 +74,13 @@ On December 23, 2002 the Company became a publicly listed company on the Indones
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="title" id="our">
+                    <div class="title" id="our-culture">
                          <h2><span>our culture</span></h2>
                      </div>
                 </div>
                 <div class="col-lg-12">
                     <div class="row">
-                        <div class="col-lg-2 col-lg-offset-2">
+                        <div class="col-lg-2 col-lg-offset-2 col-xs-6">
                             <div class="icon-list">
                                 <div class="circle">
                                     <i class="fa-bullseye fa"></i>
@@ -87,7 +88,7 @@ On December 23, 2002 the Company became a publicly listed company on the Indones
                                 <p>Work Smart</p>
                             </div>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-xs-6">
                             <div class="icon-list">
                                 <div class="circle">
                                     <i class="fa-gears fa"></i>
@@ -95,7 +96,7 @@ On December 23, 2002 the Company became a publicly listed company on the Indones
                                 <p>Work Smart</p>
                             </div>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-xs-6">
                             <div class="icon-list">
                                 <div class="circle">
                                     <i class="fa-group fa"></i>
@@ -103,7 +104,7 @@ On December 23, 2002 the Company became a publicly listed company on the Indones
                                 <p>Work Smart</p>
                             </div>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-xs-6">
                             <div class="icon-list">
                                 <div class="circle">
                                     <i class="fa-forward fa"></i>
@@ -120,19 +121,19 @@ On December 23, 2002 the Company became a publicly listed company on the Indones
                 </div>
                 <div class="col-lg-12">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-xs-6">
                             <h3 class="double-word"><span>our</span> vision</h3>
                             <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod blanditiis adipisci nobis, eligendi modi voluptas facere iusto voluptates aperiam consectetur excepturi deleniti perferendis corrupti fugit eius, quidem sit corporis non.</p>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-xs-6">
                             <h3 class="double-word"><span>our</span> vision</h3>
                             <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod blanditiis adipisci nobis, eligendi modi voluptas facere iusto voluptates aperiam consectetur excepturi deleniti perferendis corrupti fugit eius, quidem sit corporis non.</p>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-xs-6">
                             <h3 class="double-word"><span>our</span> vision</h3>
                             <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod blanditiis adipisci nobis, eligendi modi voluptas facere iusto voluptates aperiam consectetur excepturi deleniti perferendis corrupti fugit eius, quidem sit corporis non.</p>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-xs-6">
                             <h3 class="double-word"><span>our</span> vision</h3>
                             <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod blanditiis adipisci nobis, eligendi modi voluptas facere iusto voluptates aperiam consectetur excepturi deleniti perferendis corrupti fugit eius, quidem sit corporis non.</p>
                         </div>
@@ -199,8 +200,8 @@ On December 23, 2002 the Company became a publicly listed company on the Indones
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="title">
-                                 <h2><span>vision &amp; mission</span></h2>
+                            <div class="title" id="location">
+                                 <h2><span>location</span></h2>
                              </div>
                         </div>
                         <div class="col-lg-8 col-lg-offset-2">
@@ -215,49 +216,51 @@ On December 23, 2002 the Company became a publicly listed company on the Indones
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
-                            <div class="title">
-                                 <h2><span>vision &amp; mission</span></h2>
+                            <div class="title" id="subsdiaries">
+                                 <h2><span>subsdiaries</span></h2>
                              </div>
                         </div>
                         <div class="col-lg-12">
-                            <ul class="carousel">
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
-                                <li>
-                                    <img src="img/subdiaries1.png" height="90" width="190" alt="">
-                                    <h3 class="single-word">Work sincere</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
-                                </li>
+                            <div class="carousel-wrapper">
+                                <ul class="carousel">
+                                    <li>
+                                        <img src="img/subdiaries1.png" height="90" width="190" alt="">
+                                        <h3 class="single-word">Work sincere</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/subdiaries1.png" height="90" width="190" alt="">
+                                        <h3 class="single-word">Work sincere</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/subdiaries1.png" height="90" width="190" alt="">
+                                        <h3 class="single-word">Work sincere</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/subdiaries1.png" height="90" width="190" alt="">
+                                        <h3 class="single-word">Work sincere</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/subdiaries1.png" height="90" width="190" alt="">
+                                        <h3 class="single-word">Work sincere</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/subdiaries1.png" height="90" width="190" alt="">
+                                        <h3 class="single-word">Work sincere</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
+                                    </li>
+                                    <li>
+                                        <img src="img/subdiaries1.png" height="90" width="190" alt="">
+                                        <h3 class="single-word">Work sincere</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto earum reprehenderit saepe molestiae, nesciunt expedita, harum quidem voluptas consequatur consectetur, dolore mollitia quos, quae soluta ut nulla officia maiores cum.</p>
+                                    </li>
 
-                            </ul>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -68,7 +68,7 @@
 
                 li {
                     display: inline-block;
-                    padding: 5px;
+                    padding: 4px;
 
                     a {
                         padding: 0;
@@ -83,6 +83,8 @@
                         }
                     }
                     &:nth-child(2) {
+                        a {margin-right: 0;}
+
                          a::before {
                             top: 0;
                             left: -6px;
@@ -96,7 +98,7 @@
 
                     form , .form-group {margin: 0px;}
                 }
-            }
+            }//list-header
 
             .lang {
                 position: absolute;
@@ -138,10 +140,16 @@
 
                 .dropdown-menu {
                     background: rgba(151,41,40,1);
+                    width:100% !important;
 
                     li {
                         width: 100%;
                         // a:hover::before {background-color: @white;colo}
+                    }
+
+                    .sub-menu {
+                        left:0;
+                        position:relative;
                     }
                 }
             }
@@ -266,11 +274,58 @@
             aside {
                 padding:10px 15px !important;
                 font-size: 16px;
+
+                &:before {
+                    left: 5px;
+                    top: 5px;
+                    z-index: -1;
+                }
             }
         }
 
         .quotes-2 {
             padding:10px 15px;
+        }
+
+        .content {
+
+            &.col2 {
+                .column-count(1);
+                .column-gap(0);
+            }
+
+            &.col3 {
+                .column-count(1);
+                .column-gap(0);
+            }
+
+            &.col4 {
+                .column-count(1);
+                .column-gap(0);
+            }
+
+            &.col5 {
+                .column-count(1);
+                .column-gap(0);
+            }
+        }
+
+        .subsdiaries {
+            .carousel-wrapper {
+                .bx-viewport {
+                    left:0 !important;
+
+                }
+
+                .bx-wrapper {
+                    .bx-next {
+                        right:-20px;
+                    }
+                    .bx-prev {
+                        left:-10px;
+                    }
+                }
+            }
         }
     }//article
 
