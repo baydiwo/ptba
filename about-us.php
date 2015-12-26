@@ -49,6 +49,30 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
+                    <div class="title" id="history">
+                         <h2><span>video profile</span></h2>
+                     </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="content col2">
+                    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/uiPoj_1k9fs" frameborder="0" allowfullscreen></iframe></p>
+                        <p>
+                            <span class="first">T</span>he coal mining in Tanjung Enim was initiated by the Dutch Colonial Government in 1919 by operating the first coal mine using open pit mining method in Air Laya.
+
+Using underground mining method, initial operation commenced in 1923 and lasted until 1940, while commercial production began in 1938.
+
+When the Dutch Colonial period ended in Indonesia, the mining workers fought for the nationalization of the mines. In 1950, the Indonesian Government approved the establishment of State-Owned Bukit Asam Coal Mine or Perusahaan Negara Tambang Arang Bukit Asam (PN TABA).
+
+In 1981, PN TABA converted its status to a limited liability company under the name of PT Tambang Batubara Bukit Asam (Persero) Tbk, further called the Company. To develop coal industry in Indonesia, in 1990 the Government merged Perum Tambang Batubara with the Company.
+
+In line with the national energy security development program, in 1993 the Company was assigned by the Government to develop coal briquette business.
+
+On December 23, 2002 the Company became a publicly listed company on the Indonesian Stock Exchange under the code of "PTBA".</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
                     <div class="title" id="our">
                          <h2><span>our culture</span></h2>
                      </div>

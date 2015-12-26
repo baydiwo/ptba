@@ -27,6 +27,12 @@ $(document).ready(function() {
       nextText: " ",
       prevText: " ",
     });
+
+    $('.news-slider').bxSlider({
+        pagerCustom: '#news-pager',
+        controls: false,
+        captions: true
+    });
 });
 
 $(function () {

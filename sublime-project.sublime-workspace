@@ -4,20 +4,36 @@
 		"selected_items":
 		[
 			[
-				"thu",
-				"thumb-report-big.jpg	w:570 h:570"
-			],
-			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"font",
-				"font-family"
+				"text",
+				"text-align"
 			],
 			[
 				"mar",
-				"margin-bottom"
+				"margin-top"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"thu",
+				"thumb-report-big.jpg	w:570 h:570"
 			],
 			[
 				"border",
@@ -26,10 +42,6 @@
 			[
 				"table",
 				"table-cell"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"margin",
@@ -88,10 +100,6 @@
 				"paneId"
 			],
 			[
-				"wid",
-				"widId+paneId+triggerId+thenum"
-			],
-			[
 				"tri",
 				"triggerId〔variable〕"
 			],
@@ -142,10 +150,6 @@
 			[
 				"inc",
 				"include〔keyword〕"
-			],
-			[
-				"tex",
-				"text-decoration"
 			],
 			[
 				"font-s",
@@ -408,30 +412,27 @@
 	"buffers":
 	[
 		{
-			"file": "investor-relations.php",
-			"settings":
-			{
-				"buffer_size": 7142,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 30159,
+				"buffer_size": 34553,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nSublimeCodeIntel\n----------------\n\n  SublimeCodeIntel\n  ================\n  \n   ____        _     _ _                 ____          _      ___       _       _\n  / ___| _   _| |__ | (_)_ __ ___   ___ / ___|___   __| | ___|_ _|_ __ | |_ ___| |\n  \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   / _ \\ / _` |/ _ \\| || '_ \\| __/ _ \\ |\n   ___) | |_| | |_) | | | | | | | |  __/ |__| (_) | (_| |  __/| || | | | ||  __/ |\n  |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|\\____\\___/ \\__,_|\\___|___|_| |_|\\__\\___|_|\n  A full-featured code intelligence and smart autocomplete engine for Sublime Text.\n     (Code intelligence plugin ported from Open Komodo Editor to Sublime Text)\n  \n  \n  +-------------------------------- HELP WANTED ---------------------------------+\n  |     Maintaining this project is hard, I do it in my spare time, but I'm      |\n  |     basically all alone. If anyone is interested in contributing, please     |\n  |     contact me. I really need much more help maintaining SublimeCodeIntel    |\n  |                                                                              |\n  |                       Follow me on twitter @germbravo                        |\n  |           You can find us at #sublimecodeintel on irc.freenode.net           |\n  |                                                                              |\n  |             If you like SublimeCodeIntel, please make a donation:            |\n  |        http://sublimecodeintel.github.io/SublimeCodeIntel/donate.html        |\n  +------------------------------------------------------------------------------+\n  \n  \n  Features\n  --------\n  \n  Supports all the languages Komodo Editor supports for Code Intelligence (CIX, CodeIntel2):\n  \n  JavaScript, Mason, XBL, XUL, RHTML, SCSS, Python, HTML, Ruby, Python3, XML, Sass, XSLT, Django, HTML5, Perl, CSS, Twig, Less, Smarty, Node.js, Tcl, TemplateToolkit, PHP.\n  \n  \n  Provides the following features:\n  \n  * Jump to Symbol Definition - Jump to the file and line of the definition of a symbol.\n  * Imports autocomplete - Shows autocomplete with the available modules/symbols in real time.\n  * Function Call tooltips - Displays information in the status bar about the working function.\n  \n  \n  + Shortcuts for jump to definition have changed:\n  \n    For Mac OS X:\n      * Jump to definition = ``Control+Click``\n      * Jump to definition = ``Control+Command+Alt+Up``\n      * Go back = ``Control+Command+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n    For Linux:\n      * Jump to definition = ``Super+Click``\n      * Jump to definition = ``Control+Super+Alt+Up``\n      * Go back = ``Control+Super+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n    For Windows:\n      * Jump to definition = ``Alt+Click``\n      * Jump to definition = ``Control+Windows+Alt+Up``\n      * Go back = ``Control+Windows+Alt+Left``\n      * Manual CodeIntel = ``Control+Shift+space``\n  \n  \n  \n  Notes\n  -----\n  \n  ** Restart Sublime Text after reading this **\n  \n  \n  More information\n  ----------------\n  Please take the time to read the documentation:\n  \n  In case of trouble, please read the Troubleshooting section in the README.\n  \n  * Online - http://sublimecodeintel.github.io/SublimeCodeIntel/\n  * Git - https://github.com/SublimeCodeIntel/SublimeCodeIntel\n  \n  \n  IMPORTANT\n  ---------\n  \n  Do NOT edit the default SublimeCodeIntel settings. Your changes will be lost\n  when SublimeCodeIntel is updated. ALWAYS edit the user SublimeCodeIntel settings\n  by selecting \"Preferences->Package Settings->SublimeCodeIntel->Settings - User\".\n  Note that individual settings you include in your user settings will **completely**\n  replace the corresponding default setting, so you must provide that setting in its entirety.\n",
+			"file": "news-detail.php",
 			"settings":
 			{
-				"buffer_size": 3795,
-				"line_ending": "Windows",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 11773,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "news.php",
+			"settings":
+			{
+				"buffer_size": 7327,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -442,10 +443,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 282.0,
-		"last_filter": "insta",
+		"height": 363.0,
+		"last_filter": "reind",
 		"selected_items":
 		[
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -453,10 +458,6 @@
 			[
 				"remove",
 				"Package Control: Remove Package"
-			],
-			[
-				"reind",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"html",
@@ -509,25 +510,34 @@
 	"expanded_folders":
 	[
 		"/D/xampp/htdocs/ptba",
-		"/D/xampp/htdocs/ptba/css"
+		"/D/xampp/htdocs/ptba/css",
+		"/D/xampp/htdocs/ptba/inc",
+		"/D/xampp/htdocs/ptba/js"
 	],
 	"file_history":
 	[
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/D/xampp/htdocs/ptba/css/style.less",
+		"/D/xampp/htdocs/ptba/js/scripts.js",
+		"/D/xampp/htdocs/ptba/news.php",
+		"/D/xampp/htdocs/ptba/investor-relations.php",
+		"/D/xampp/htdocs/ptba/csr.php",
 		"/D/xampp/htdocs/ptba/about-us.php",
 		"/D/xampp/htdocs/ptba/inc/logo-nav.php",
+		"/C/Users/Bayu/AppData/Local/Temp/7zO0DF7F65E/investor-relations.php",
+		"/C/Users/Bayu/AppData/Local/Temp/7zO0DFF2A7E/csr.php",
+		"/C/Users/Bayu/AppData/Local/Temp/7zO0DF3608D/about-us.php",
+		"/D/xampp/htdocs/ptba/css/style.less",
+		"/D/xampp/htdocs/ptba/inc/home-slider.php",
+		"/D/xampp/htdocs/fm/mgm_apps/application/views/vmain.php",
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/D/xampp/htdocs/test/colorbox-master/example2/index.html",
 		"/D/xampp/htdocs/ptba/css/jquery.bxslider.less",
 		"/D/xampp/htdocs/ptba/inc/footer.php",
 		"/D/xampp/htdocs/ptba/inc/head.php",
-		"/D/xampp/htdocs/ptba/js/scripts.js",
 		"/D/xampp/htdocs/ptba/css/carousel.less",
 		"/D/xampp/htdocs/test/CircularContentCarousel/index.html",
 		"/D/xampp/htdocs/test/CircularContentCarousel/css/style.css",
 		"/D/xampp/htdocs/ptba/css/media.less",
 		"/D/xampp/htdocs/ptba/index.php",
-		"/D/xampp/htdocs/ptba/inc/home-slider.php",
 		"/C/Users/Bayu/AppData/Local/Temp/fz3temp-1/BodyShopVC.master",
 		"/C/Users/Bayu/AppData/Local/Temp/fz3temp-1/BodyShopSite.master",
 		"/D/xampp/htdocs/ptba/inc/accordion.php",
@@ -633,18 +643,11 @@
 		"/D/xampp/htdocs/hofris/css/style.css",
 		"/D/xampp/htdocs/hofris/css/flexslider.less",
 		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/DocBlockr/README.md",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap"
+		"/C/Users/Bayu/AppData/Roaming/Sublime Text 3/Packages/AutoFileName/autofilename.sublime-settings"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -660,6 +663,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"date-share",
+			"spvan",
+			"col2",
+			"<a href=\"\" class=\"readmore\">Read more</a></p>",
+			"title",
+			"$breakpoint-alpha",
+			"col-lg-4",
 			"brown",
 			"orange",
 			"brown",
@@ -780,14 +790,7 @@
 			"<p><?php the_field('text') ?> ...</p>",
 			"$screen",
 			"current_user",
-			"roboto",
-			"h1",
-			"widget",
-			"register",
-			"wpcf7_validate_email",
-			"WPCF7",
-			"wpcf7",
-			"WPCF7"
+			"roboto"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -811,19 +814,108 @@
 			[
 				{
 					"buffer": 0,
-					"file": "investor-relations.php",
+					"file": "css/style.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7142,
+						"buffer_size": 34553,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6433,
-								6433
+								34404,
+								34404
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 21071.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "news-detail.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2539,
+								2539
 							]
 						],
 						"settings":
@@ -832,6 +924,51 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -841,177 +978,88 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_round_content"
 							],
-							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 							"open_with_edit": true,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1633.0,
+						"translation.y": 405.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30111,
-								30111
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 17963.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "news.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3795,
+						"buffer_size": 7327,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1373,
-								1373
+								834,
+								834
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_indent": false,
+							"auto_complete": false,
 							"bh_regions":
 							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1021,62 +1069,17 @@
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_round_content"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

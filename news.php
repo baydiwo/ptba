@@ -20,7 +20,6 @@
     <article class="article">
         <div class="container">
             <div class="row news">
-                <div class="clearfix space"></div>
                 <div class="col-lg-6">
                     <div class="news-box">
                         <a href="">
