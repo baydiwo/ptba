@@ -124,7 +124,7 @@
                     </center>
                 </div>
                 <div class="clearfix"></div>
-                <div class="col-lg-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <center><span class="year-title">2015</span></center>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
@@ -147,7 +147,7 @@
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
                 </div>
-                 <div class="col-lg-12">
+                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <center><span class="year-title">2014</span></center>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
@@ -168,7 +168,7 @@
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
                 </div>
-                 <div class="col-lg-12">
+                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <center><span class="year-title">2013</span></center>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
@@ -198,7 +198,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12"><br>
+                <div class="col-lg-12">
+                    <div class="row table-title">
+                        <div class="col-lg-6">
+                            <div class="left">
+                                <h3>Laporan Posisi Keuangan Konsolidasian</h3>
+                                <span>(Dalam jutaan Rupiah)</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right">
+                                <h3>Laporan Posisi Keuangan Konsolidasian</h3>
+                                <span>(Dalam jutaan Rupiah)</span>
+                            </div>
+                        </div>
+                    </div>
                     <table class="rwd-table">
                         <tr>
                             <th></th>
