@@ -57,7 +57,11 @@
 
                 <div class="col-lg-12">
                     <div class="content col2">
-                    <p><iframe width="100%" height="315" src="https://www.youtube.com/embed/uiPoj_1k9fs" frameborder="0" allowfullscreen></iframe></p>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uiPoj_1k9fs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <br>
                         <p>
                             <span class="first">T</span>he coal mining in Tanjung Enim was initiated by the Dutch Colonial Government in 1919 by operating the first coal mine using open pit mining method in Air Laya.
 
