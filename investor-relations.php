@@ -27,13 +27,15 @@
             </div>
             <div class="row investor-relations">
                 <div class="col-lg-12">
-                    <form action="investor-relations_submit" method="get" accept-charset="utf-8">
-                        <label>Choose Year</label>
-                        <select name="">
-                            <option value="">Year</option>
-                            option
-                        </select>
-                    </form>
+                    <center>
+                        <form action="investor-relations_submit" method="get" accept-charset="utf-8">
+                            <label>Choose Year</label>
+                            <select name="">
+                                <option value="">Year</option>
+                                option
+                            </select>
+                        </form>
+                    </center>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
@@ -111,20 +113,22 @@
             </div>
             <div class="row investor-relations">
                 <div class="col-lg-12">
-                    <form action="investor-relations_submit" method="get" accept-charset="utf-8">
-                        <label>Choose Year</label>
-                        <select name="">
-                            <option value="">Year</option>
-                            option
-                        </select>
-                    </form>
+                    <center>
+                        <form action="investor-relations_submit" method="get" accept-charset="utf-8">
+                            <label>Choose Year</label>
+                            <select name="">
+                                <option value="">Year</option>
+                                option
+                            </select>
+                        </form>
+                    </center>
                 </div>
-<div class="clearfix"></div>
- <div class="col-lg-12">
+                <div class="clearfix"></div>
+                <div class="col-lg-12">
                     <center><span class="year-title">2015</span></center>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box yellow">
+                    <div class="box quarter yellow">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download">
                             <a href=""><i class="fa fa-download"></i> Download</a>
@@ -132,13 +136,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box yellow">
+                    <div class="box quarter yellow">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box yellow">
+                    <div class="box quarter yellow">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
@@ -147,19 +151,19 @@
                     <center><span class="year-title">2014</span></center>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box brown">
+                    <div class="box quarter brown">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box brown">
+                    <div class="box quarter brown">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box brown">
+                    <div class="box quarter brown">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
@@ -168,19 +172,19 @@
                     <center><span class="year-title">2013</span></center>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box blue">
+                    <div class="box quarter blue">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box blue">
+                    <div class="box quarter blue">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-                    <div class="box blue">
+                    <div class="box quarter blue">
                         <p>LAPORAN KEUANGAN KONSOLIDASIAN 30 SEPTEMBER 2015 DAN 31 DESEMBER 2014</p>
                         <span class="download"><i class="fa fa-download"></i> Download</span>
                     </div>
