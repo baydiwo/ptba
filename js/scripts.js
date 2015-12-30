@@ -1,14 +1,4 @@
 $(document).ready(function() {
-    $('#fullpage').fullpage({
-        // anchors: ['firstPage'],
-        // sectionsColor: ['#4A6FB1'],
-        navigation: false,
-        autoScrolling: false,
-        css3: true,
-        fitToSection: false,
-        scrollingSpeed: 1000,
-        lockAnchors: false,
-    });
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 1){
@@ -32,6 +22,17 @@ $(document).ready(function() {
         pagerCustom: '#news-pager',
         controls: false,
         captions: true
+    });
+
+    $('#fullpage').fullpage({
+        // anchors: ['firstPage'],
+        // sectionsColor: ['#4A6FB1'],
+        navigation: false,
+        autoScrolling: false,
+        css3: true,
+        fitToSection: false,
+        scrollingSpeed: 1000,
+        lockAnchors: false,
     });
 });
 

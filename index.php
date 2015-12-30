@@ -4,7 +4,7 @@
 
     <div id="fullpage">
         <div class="section">
-            <article>
+            <article class="homepage">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding">
@@ -78,19 +78,17 @@
                 </div>
             </article>
         </div>
-        <div class="section fp-auto-height">
-            <article>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 no-padding">
-                            <div class="banner">
-                                <img src="img/banner.jpg" height="244" width="1280" alt="" class="img-responsive">
-                            </div>
+        <article class="homepage">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 no-padding">
+                        <div class="banner">
+                            <img src="img/banner.jpg" height="244" width="1280" alt="" class="img-responsive">
                         </div>
                     </div>
                 </div>
-            </article>
-        </div>
+            </div>
+        </article>
 
 
     <?php include "inc/footer.php"; ?>

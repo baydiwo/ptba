@@ -649,6 +649,10 @@ article {
     background:@white;
     margin-bottom: 40px;
 
+    &.homepage {
+        margin-bottom: 0;
+    }
+
     .container {
         overflow:hidden;
     }
@@ -1633,4 +1637,34 @@ article {
             margin-bottom: 30px;
         }
     }
+
+    &.contact-us {
+
+        address {
+            text-align: center
+        }
+    }
+
+    .form {
+
+        label {
+            color:@brown;
+        }
+
+        input, textarea {
+            border:1px solid @brown;
+        }
+
+        .btn-submit {
+            background:@brown;
+            border-color:@orange;
+            color:@white;
+            .transition(all ease .2s);
+
+            &:hover , &:focus {
+                background:lighten(@orange ,10%);
+            }
+        }
+    }
+
 }//article
