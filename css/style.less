@@ -72,13 +72,13 @@ body {
 
 p a{
     font-weight: 500;
-    .transition(color 0.3s);
-    .perspective( 600px);
-    .perspective-origin(50% 100%);
     color: @brown;
 
-    .hover-before-after();
-    .hover-hover()
+    // .transition(color 0.3s);
+    // .perspective( 600px);
+    // .perspective-origin(50% 100%);
+    // .hover-before-after();
+    // .hover-hover()
 }
 
 a {
@@ -909,7 +909,7 @@ article {
         border-left:1px solid #ccc;
         border-right:1px solid #ccc;
         border-bottom:1px solid #ccc;
-        margin-bottom: 40px;
+        margin: 40px 0;
         position:relative;
 
         &::before,
@@ -977,7 +977,6 @@ article {
         }
 
         &.left-line {
-            margin-top: 40px;
             border-left:4px solid @orange;
             border-top:1px solid #ccc;
 
@@ -994,7 +993,7 @@ article {
         line-height: 30px;
         padding: 30px;
         border:1px solid #cccccc;
-        margin-bottom: 40px;
+        margin: 40px 0;
         background: #f2f2f2;
     }
 
@@ -1584,7 +1583,7 @@ article {
     }
 
     .list-number {
-        margin: 0;
+        margin: 20px 0 0 0;
         padding-right: 0;
         padding-left: 30px;
         list-style-type: none;
@@ -1592,12 +1591,14 @@ article {
         li {
             counter-increment: step-counter;
             position:relative;
+            margin-bottom: 10px;
+            display:block;
 
             &:before {
                 content: counter(step-counter);
                 margin-right: 5px;
                 margin-left: -30px;
-                margin-top: 5px;
+                margin-top: -3px;
                 font-size: 14px;
                 background-color: @brown;
                 color: white;
@@ -1612,6 +1613,7 @@ article {
     .list-arrow {
         &:extend(article .list-number);
         margin:20px 0;
+        padding-left: 0;
 
         li {
             padding-left: 30px;
@@ -1632,6 +1634,7 @@ article {
     .icon-goal {
         text-align: center;
         margin: 20px 0;
+        min-height: 260px;
 
         img {
             margin-bottom: 30px;

@@ -95,7 +95,7 @@
                     In 2010 the Company made some improvement on GCG implementation as follows :
                     </div>
                     <div class="content">
-                        <center><ol class="list-number">
+                        <ol class="list-number">
                             <li>With the aid of a consultant, the Company developed a new GCG Soft Structure: Board Manual, GCG Code, Code of Conduct.</li>
                             <li>Code of Conduct is a guide to direct the conduct of all personnel of the Company, which has been socialized to all personnel, elaborating on.</li>
                             <li>Conflict of interest policy.</li>
@@ -103,7 +103,7 @@
                             <li>Goods and services procurement policy.</li>
                             <li>Procedure of reporting misconduct (whistle blowing system)</li>
                             <li>Completion of code conduct compliance sheets by all employees.</li>
-                        </ol></center>
+                        </ol>
                     </div>
 <br /><br /><br />
                     <center><h3 class="double-word pull-left"><span>CORPORATE ORGAN </span> </h3></center><br/><br/>
