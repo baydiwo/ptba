@@ -103,6 +103,8 @@
     <script type="text/javascript" src="js/jquery.easings.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <link href="js/skins/square/red.css" rel="stylesheet">
+    <script type="text/javascript" src="js/icheck.min.js"></script>
 
     <script type="text/javascript" src="js/scripts.js"></script>
 

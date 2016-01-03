@@ -446,7 +446,7 @@ header {
             background: rgba(151,41,40,0.8);
             margin-bottom: 10px;
             padding: 10px 20px;
-            height: auto !important;
+            height: auto;
 
             h3, h4 {
                 font-size: 16px;
@@ -1061,7 +1061,7 @@ article {
             margin: 0 auto 20px;
             .transition(all ease .3s);
 
-            i {
+            i , span {
                 font-size: 48px;
                 line-height: 98px;
                 color: @black;
@@ -1073,7 +1073,7 @@ article {
             .circle {
                 border-color:@orange;
             }
-            i {
+            i , span {
                 color: @orange;
             }
         }
@@ -1656,14 +1656,14 @@ article {
         }
     }
 
-    .form {
+    form {
 
         label {
             color:@brown;
         }
 
         input, textarea {
-            border:1px solid @brown;
+            border:1px solid @brown !important;
         }
 
         .btn-submit {
@@ -1674,6 +1674,34 @@ article {
 
             &:hover , &:focus {
                 background:lighten(@orange ,10%);
+                color:@white;
+                border-color: lighten(@orange ,10%);
+            }
+        }
+
+        .file-input {
+            margin:10px 0;
+        }
+    }//form
+
+    .checkbox label, .radio label {
+        padding-left: 0;
+    }
+
+    .awards {
+        .awards-box {
+            margin:20px 0;
+            h3 {
+                font-family: @poly;
+                padding-bottom: 10px;
+                border-bottom: 1px solid @black;
+            }
+            .date-share {
+                &:extend(article .news .news-box .date-share, article .news-detail .date-share);
+
+                .date, i {
+                    color:@brown;
+                }
             }
         }
     }

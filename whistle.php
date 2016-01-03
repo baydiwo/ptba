@@ -35,7 +35,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="icon-list">
                         <div class="circle">
-                            <i class="fa-group fa"></i>
+                            <i class="fa fa-heartbeat"></i>
                         </div>
                         <p>Early detection (early warning) of possible problems caused from a breach.</p>
                     </div>
@@ -43,7 +43,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="icon-list">
                         <div class="circle">
-                            <i class="fa-group fa"></i>
+                            <i class="fa fa-exclamation-circle"></i>
                         </div>
                         <p>Early detection (early warning) of possible problems caused from a breach.</p>
                     </div>
@@ -51,7 +51,7 @@
                 <div class="col-xs-12 col-sm-4">
                     <div class="icon-list">
                         <div class="circle">
-                            <i class="fa-group fa"></i>
+                            <i class="fa fa-clipboard"></i>
                         </div>
                         <p>Early detection (early warning) of possible problems caused from a breach.</p>
                     </div>

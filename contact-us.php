@@ -32,7 +32,7 @@
 
                     </address>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-sm-6">
                     <h3 class="double-word"><span>head</span> office</h3>
                     <address>
                         Jl. Parigi No.1 <br>
@@ -42,7 +42,7 @@
 
                     </address>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-sm-6">
                     <h3 class="double-word"><span>head</span> office</h3>
                     <address>
                         Jl. Parigi No.1 <br>

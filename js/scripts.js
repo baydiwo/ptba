@@ -24,6 +24,12 @@ $(document).ready(function() {
         captions: true
     });
 
+     $('input').iCheck({
+        checkboxClass: 'icheckbox_square-red',
+        radioClass: 'iradio_square-red',
+        increaseArea: '20%' // optional
+    });
+
     $('#fullpage').fullpage({
         // anchors: ['firstPage'],
         // sectionsColor: ['#4A6FB1'],
@@ -33,6 +39,11 @@ $(document).ready(function() {
         fitToSection: false,
         scrollingSpeed: 1000,
         lockAnchors: false,
+        afterRender: function () {
+            setInterval(function () {
+                $.fn.fullpage.moveSlideRight();
+            }, 3000);
+        }
     });
 });
 
