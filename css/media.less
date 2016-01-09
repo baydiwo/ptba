@@ -17,6 +17,12 @@
 @poly : 'Poly', serif;
 @white: #efefef;
 
+@media (min-width: @screen-lg-min) {
+    header #slide1 {
+        background-size: cover;
+    }
+}
+
 @media (max-width: @screen-xs-max) {
 
     body , p {
@@ -321,6 +327,14 @@
                     }
                 }
             }
+        }
+
+        h3.double-word span::after {
+            display:none;
+        }
+
+        .title h2 span {
+            padding:0;
         }
     }//article
 

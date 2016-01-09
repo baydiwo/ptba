@@ -81,6 +81,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- clearfix after two award div to make the grid tidy-->
+                <div class="clearfix"></div>
 
                 <div class="col-sm-6 col-xs-12">
                     <div class="awards-box">
@@ -135,6 +137,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- clearfix after two award div to make the grid tidy-->
+                <div class="clearfix"></div>
 
                 <div class="col-sm-6 col-xs-12">
                     <div class="awards-box">

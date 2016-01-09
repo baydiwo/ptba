@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-xs-12 col-sm-4">
-                <div class="logo wow fadeIn">
+                <div class="logo">
                     <a href="#" title="PT Bukit Asam"><img src="img/logo.png" alt="PT Bukit Asam" class="img-responsive"></a>
                     <a class="lang mobile"><img src="img/id.png" height="22" width="32" alt="Indonesian" class="img-responsive"></a>
                 </div>
