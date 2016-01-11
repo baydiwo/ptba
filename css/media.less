@@ -66,6 +66,7 @@
         }
 
         .logo-nav {
+            position:relative;
             .box-shadow(0 1px 20px #222);
 
             .list-header {
@@ -371,13 +372,17 @@
 
         .accordion {
             .widget {
-                height:auto !important;
+                // height:auto !important;
 
                 h3 {
                     font-size: 16px !important;
                 }
             }
         }
+    }
+
+    header .accordion .widget .detail .glyphicon, header .accordion .widget .detail .number {
+        font-size: 15px;
     }
 }//tablet
 

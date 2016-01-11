@@ -24,15 +24,26 @@
                 <!-- main content -->
                 <div class="col-lg-8">
                     <div class="clearfix space"></div>
-                    <ul class="news-slider">
-                        <li><img src="img/PTBA-Pembayar-Pajak-Terbesar-di-Kabupaten-Muara-Enim-1.jpg" height="412" width="620" title="PTBA" /></li>
-                        <li><img src="img/PTBA-Pembayar-Pajak-Terbesar-di-Kabupaten-Muara-Enim-1.jpg" height="412" width="620" /></li>
-                    </ul>
+                        <!-- The main images -->
+                        <ul id="bxslider" class="news-slider">
+                            <li><img src="http://dummyimage.com/600x400/000/fff.png" alt="" title="captions"></li>
+                            <li><img src="http://dummyimage.com/600x400/000/ff0099.png" alt=""></li>
+                            <li><img src="http://dummyimage.com/600x400/000/ff0000.png" alt=""></li>
+                            <li><img src="http://dummyimage.com/600x400/000/fff000.png" alt=""></li>
+                            <li><img src="http://dummyimage.com/600x400/000/fff.png" alt=""></li>
+                            <li><img src="http://dummyimage.com/600x400/000/fff.png" alt=""></li>
+                        </ul>
 
-                    <div id="news-pager">
-                        <a data-slide-index="0" href=""><img src="img/PTBA-Pembayar-Pajak-Terbesar-di-Kabupaten-Muara-Enim-1.jpg" height="412" width="620" /></a>
-                        <a data-slide-index="1" href=""><img src="img/PTBA-Pembayar-Pajak-Terbesar-di-Kabupaten-Muara-Enim-1.jpg" height="412" width="620" /></a>
-                    </div>
+                        <!-- The thumbnails -->
+                        <ul id="bxslider-pager" class="news-pager">
+                            <li data-slideIndex="0"><a href=""><img src="http://dummyimage.com/200x200/000/fff.png"></a></li>
+                            <li data-slideIndex="1"><a href=""><img src="http://dummyimage.com/200x200/000/ff0099.png"></a></li>
+                            <li data-slideIndex="2"><a href=""><img src="http://dummyimage.com/200x200/000/ff0000.png"></a></li>
+                            <li data-slideIndex="3"><a href=""><img src="http://dummyimage.com/200x200/000/fff000.png"></a></li>
+                            <li data-slideIndex="4"><a href=""><img src="http://dummyimage.com/200x200/000/fff.png"></a></li>
+                            <li data-slideIndex="5"><a href=""><img src="http://dummyimage.com/200x200/000/fff.png"></a></li>
+                        </ul>
+
                     <div class="clearfix space"></div>
                     <div class="date-share">
                         <ul class="list-unstyled list-inline">

@@ -1,5 +1,40 @@
 <div class="no-padding">
-<div id="fullpage" class="">
+<ul class="mobile-slider mobile">
+    <li>
+        <img src="img/Bukit-Asam-Slider-1.jpg" title='
+        <div class="caption">
+            <div class="title">
+                <h1>Work Smart. Work Hard.</h1>
+            </div>
+            <div class="description">
+                A WORLD-CLASS ENVIRONMENT-CARE ENERGY COMPANY.
+            </div>
+        </div>' />
+    </li>
+    <li>
+        <img src="img/Bukit-Asam-Slider-1.jpg" title='
+        <div class="caption">
+            <div class="title">
+                <h1>Work Smart. Work Hard.</h1>
+            </div>
+            <div class="description">
+                A WORLD-CLASS ENVIRONMENT-CARE ENERGY COMPANY.
+            </div>
+        </div>' />
+    </li>
+    <li>
+        <img src="img/Bukit-Asam-Slider-1.jpg" title='
+        <div class="caption">
+            <div class="title">
+                <h1>Work Smart. Work Hard.</h1>
+            </div>
+            <div class="description">
+                A WORLD-CLASS ENVIRONMENT-CARE ENERGY COMPANY.
+            </div>
+        </div>' />
+    </li>
+</ul>
+<div id="fullpage" class="desktop">
     <div class="section " id="section0">
         <div class="slide" id="slide1">
             <div class="caption">
